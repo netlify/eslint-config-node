@@ -1,5 +1,5 @@
 {
-  "name": "@netlify/node-eslint-config",
+  "name": "@netlify/eslint-config-node",
   "version": "0.1.1",
   "main": ".eslintrc.js",
   "files": [
@@ -52,7 +52,7 @@
     "fp"
   ],
   "license": "Apache-2.0",
-  "repository": "netlify/node-eslint-config",
+  "repository": "netlify/eslint-config-node",
   "bugs": {
     "url": "https://github.com/netlify/node-eslint-config/issues"
   },
