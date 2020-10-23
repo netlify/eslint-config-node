@@ -1,10 +1,12 @@
 {
   "name": "@netlify/node-eslint-config",
   "version": "0.1.0",
-  "main": ".prettierrc.js",
+  "main": ".eslintrc.js",
   "files": [
     ".eslintrc.js",
-    ".editorconfig"
+    ".prettierrc.js",
+    ".editorconfig",
+    ".gitattributes"
   ],
   "scripts": {
     "test": "run-s format test:dev",
