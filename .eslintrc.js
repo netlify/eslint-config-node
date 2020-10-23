@@ -157,7 +157,7 @@ module.exports = {
   },
   overrides: [
     {
-      files: ['**/tests.js', '**/tests/**/*.js', 'packages/**/tests.js', 'packages/**/tests/**/*.js'],
+      files: ['**/tests.js', '**/tests/**/*.js'],
       rules: {
         'max-lines': 0,
         'node/no-unpublished-require': 0,
