@@ -11,6 +11,6 @@ Linting and formatting configuration shared by Netlify Node.js repositories:
 To add to a new Node.js repository, please check an existing Netlify Node.js repository and copy its:
 
 - `.eslintrc.js`
-- `.prettierrc.js`
+- `.prettierrc.json`
 - `.editorconfig`
 - `.gitattributes`
