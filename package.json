@@ -24,7 +24,7 @@
     "test:ci:ava": "nyc -r lcovonly -r text -r json ava"
   },
   "scriptsArgs": {
-    "eslint": "--ignore-path .gitignore --cache --format=codeframe --max-warnings=0 \"{scripts,.github}/**/*.{js,md,html}\"",
+    "eslint": "--ignore-path .gitignore --cache --format=codeframe --max-warnings=0 \"{scripts,.github}/**/*.{js,md,html}\" \".*.js\"",
     "prettier": "--ignore-path .gitignore --loglevel=warn \"{scripts,.github}/**/*.{js,md,yml,json,html}\" \"*.{js,yml,json,html}\" \"!**/package-lock.json\" \"!package-lock.json\""
   },
   "husky": {

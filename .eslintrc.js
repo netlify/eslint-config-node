@@ -1,4 +1,3 @@
-/* eslint-disable max-lines */
 module.exports = {
   parser: 'babel-eslint',
   plugins: ['prettier', 'markdown', 'html'],
@@ -169,6 +168,13 @@ module.exports = {
       },
     },
     {
+      files: ['.*.js'],
+      rules: {
+        'no-magic-numbers': 0,
+        'node/no-unpublished-require': 0,
+      },
+    },
+    {
       files: ['scripts/**/*.js'],
       rules: {
         'node/no-unpublished-require': 0,
@@ -192,4 +198,3 @@ module.exports = {
     },
   },
 }
-/* eslint-enable max-lines */
