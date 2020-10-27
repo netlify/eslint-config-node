@@ -59,6 +59,7 @@ module.exports = {
           // HTTP statuses
           200,
           201,
+          202,
           204,
           300,
           301,
