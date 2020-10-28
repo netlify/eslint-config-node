@@ -1,6 +1,6 @@
 module.exports = {
   parser: 'babel-eslint',
-  plugins: ['prettier', 'markdown', 'html'],
+  plugins: ['prettier', 'markdown', 'html', 'fp'],
   extends: [
     'eslint:recommended',
     'standard',
@@ -8,10 +8,13 @@ module.exports = {
     'prettier/standard',
     'plugin:eslint-comments/recommended',
     'plugin:unicorn/recommended',
+    'plugin:node/recommended',
     'plugin:ava/recommended',
     'plugin:react/recommended',
     'prettier/react',
     'plugin:you-dont-need-lodash-underscore/all',
+    // TODO: enable
+    // 'plugin:fp/recommended',
   ],
   reportUnusedDisableDirectives: true,
   rules: {
@@ -19,6 +22,8 @@ module.exports = {
     // nor standard JavaScript. However, they are still useful
     'array-callback-return': [2, { allowImplicit: true, checkForEach: true }],
     'block-scoped-var': 2,
+    'class-methods-use-this': 2,
+    complexity: [2, 5],
     'consistent-this': 2,
     'default-case': 2,
     'default-case-last': 2,
@@ -29,13 +34,20 @@ module.exports = {
     'id-length': [2, { exceptions: ['t', '_'] }],
     'line-comment-position': 2,
     'max-classes-per-file': 2,
+    'max-depth': [2, 2],
+    'max-lines': [2, { max: 150, skipBlankLines: true, skipComments: true }],
+    'max-lines-per-function': [2, { max: 100, skipBlankLines: true, skipComments: true, IIFEs: true }],
+    'max-nested-callbacks': [2, 2],
     'max-params': [2, { max: 4 }],
+    'max-statements': [2, 15],
+    'max-statements-per-line': [2, { max: 2 }],
     'multiline-comment-style': [2, 'separate-lines'],
     'no-await-in-loop': 2,
     'no-bitwise': 2,
     'no-constructor-return': 2,
     'no-duplicate-imports': 2,
     'no-else-return': [2, { allowElseIf: false }],
+    'no-empty': [2, { allowEmptyCatch: true }],
     'no-extra-label': 2,
     'no-implicit-coercion': 2,
     'no-implicit-globals': [2, { lexicalBindings: true }],
@@ -78,6 +90,26 @@ module.exports = {
     'no-multi-assign': 2,
     'no-negated-condition': 2,
     'no-nested-ternary': 2,
+    'no-param-reassign': [
+      2,
+      {
+        props: true,
+        ignorePropertyModificationsFor: [
+          'error',
+          'errorA',
+          'req',
+          'request',
+          'res',
+          'response',
+          'state',
+          'runState',
+          'logs',
+          'logsArray',
+          'currentEnv',
+          't',
+        ],
+      },
+    ],
     'no-plusplus': [2, { allowForLoopAfterthoughts: true }],
     'no-promise-executor-return': 2,
     'no-return-await': 2,
@@ -104,6 +136,9 @@ module.exports = {
     radix: [2, 'as-needed'],
     'require-await': 2,
 
+    // TODO: enable
+    // strict: 2,
+
     // The autofix makes it impossible to use those in debugging
     'ava/no-only-test': 0,
     'ava/no-skip-test': 0,
@@ -114,6 +149,50 @@ module.exports = {
       { allow: ['eslint-disable-next-line', 'eslint-disable', 'eslint-enable', 'eslint-env'] },
     ],
 
+    // Those rules are too strict
+    'fp/no-rest-parameters': 0,
+    'fp/no-unused-expression': 0,
+    'fp/no-nil': 0,
+    'fp/no-throw': 0,
+    // Avoid state mutation except for some known state variables
+    'fp/no-mutating-methods': [
+      2,
+      {
+        allowedObjects: [
+          'error',
+          'errorA',
+          'req',
+          'request',
+          'res',
+          'response',
+          'state',
+          'runState',
+          'logs',
+          'logsArray',
+          'currentEnv',
+          't',
+        ],
+      },
+    ],
+    'fp/no-mutation': [
+      2,
+      {
+        commonjs: true,
+        exceptions: [
+          { object: 'error' },
+          { object: 'errorA' },
+          { object: 'res' },
+          { object: 'state' },
+          { object: 'runState' },
+          { object: 'logs' },
+          { object: 'logsArray' },
+          { object: 'currentEnv' },
+          { object: 'process', property: 'exitCode' },
+        ],
+      },
+    ],
+
+    'import/max-dependencies': [2, { max: 20 }],
     'import/order': [
       2,
       {
@@ -124,6 +203,30 @@ module.exports = {
         },
       },
     ],
+
+    'node/no-sync': 2,
+    'node/handle-callback-err': 2,
+    'node/no-new-require': 2,
+    'node/callback-return': 2,
+    'node/exports-style': 2,
+    'node/file-extension-in-import': 2,
+    'node/global-require': 2,
+    'node/no-mixed-requires': 2,
+    // Browser globals should not use `require()`. Non-browser globals should
+    'node/prefer-global/console': 2,
+    'node/prefer-global/buffer': [2, 'never'],
+    'node/prefer-global/process': [2, 'never'],
+    // TODO: enable after dropping support for Node <10.0.0
+    'node/prefer-global/url-search-params': 0,
+    'node/prefer-global/url': 0,
+    // TODO: enable after dropping support for Node <11.0.0
+    'node/prefer-global/text-decoder': 0,
+    'node/prefer-global/text-encoder': 0,
+    // TODO: enable after dropping support for Node <11.4.0
+    'node/prefer-promises/fs': 0,
+    'node/prefer-promises/dns': 0,
+    // This does not work well in a monorepo
+    'node/shebang': 0,
 
     'react/prop-types': 0,
 
@@ -171,6 +274,7 @@ module.exports = {
     {
       files: ['.*.js'],
       rules: {
+        'max-lines': 0,
         'no-magic-numbers': 0,
         'node/no-unpublished-require': 0,
       },
