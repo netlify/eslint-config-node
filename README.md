@@ -30,7 +30,7 @@ module.exports = {
 "@netlify/eslint-config-node/.prettierrc.json"
 ```
 
-- Copy the `.editorconfig` and `.gitattributes` files to the root
+- Copy the `.editorconfig`,`.gitattributes` and `./scripts/run-on-error.js` files relativity to the root of the project.
 - Add the following properties to the `package.json`. Please replace the `scriptsArgs` globbing expressions to match the
   files where the source JavaScript/Markdown/HTML/JSON/YAML files are located. `npm run format` should also be run
   during `npm test` and `npm run format:ci` during CI
