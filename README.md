@@ -10,7 +10,7 @@ Linting and formatting configuration shared by Netlify Node.js repositories:
 
 ## How to add to a new Node.js repository
 
-- `npm install -D @netlify/eslint-config-node husky cross-env npm-run-all`
+- `npm install -D @netlify/eslint-config-node`
 - Add the following `.eslintrc.js` to the root of the project. Individual `rules` and `overrides` can be tweaked for the
   specific project.
 
