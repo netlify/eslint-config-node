@@ -1,5 +1,8 @@
 module.exports = {
   parser: 'babel-eslint',
+  parserOptions: {
+    sourceType: 'script',
+  },
   plugins: ['prettier', 'markdown', 'html', 'fp'],
   extends: [
     'eslint:recommended',
