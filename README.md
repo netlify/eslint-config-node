@@ -59,3 +59,5 @@ module.exports = {
   }
 }
 ```
+
+- Add `.eslintcache` to the `.gitignore`
