@@ -12,6 +12,9 @@ module.exports = {
     'plugin:eslint-comments/recommended',
     'plugin:unicorn/recommended',
     'plugin:node/recommended',
+    'plugin:import/recommended',
+    'plugin:promise/recommended',
+    'plugin:fp/recommended',
     'plugin:ava/recommended',
     'plugin:react/recommended',
     'prettier/react',
@@ -195,7 +198,22 @@ module.exports = {
       },
     ],
 
+    'import/extensions': [2, 'always', { ignorePackages: true }],
     'import/max-dependencies': [2, { max: 20 }],
+    'import/newline-after-import': 2,
+    'import/no-amd': 2,
+    'import/no-anonymous-default-export': 2,
+    'import/no-cycle': [2, { commonjs: true }],
+    'import/no-deprecated': 2,
+    'import/no-dynamic-require': 2,
+    'import/no-extraneous-dependencies': 2,
+    'import/no-mutable-exports': 2,
+    'import/no-named-default': 2,
+    'import/no-namespace': 2,
+    'import/no-self-import': 2,
+    'import/no-unassigned-import': [2, { allow: ['*polyfill*', '**/*polyfill*', 'log-process-errors/**'] }],
+    'import/no-unresolved': [2, { commonjs: true }],
+    'import/no-useless-path-segments': [2, { commonjs: true }],
     'import/order': [
       2,
       {
@@ -230,6 +248,14 @@ module.exports = {
     'node/prefer-promises/dns': 0,
     // This does not work well in a monorepo
     'node/shebang': 0,
+
+    'promise/no-callback-in-promise': 2,
+    'promise/no-nesting': 2,
+    'promise/no-promise-in-callback': 2,
+    'promise/no-return-in-finally': 2,
+    'promise/prefer-await-to-callbacks': 2,
+    'promise/prefer-await-to-then': 2,
+    'promise/valid-params': 2,
 
     'react/prop-types': 0,
 
@@ -296,6 +322,8 @@ module.exports = {
         // Inline comments making code samples vertically shorter are useful
         'line-comment-position': 0,
         'no-inline-comments': 0,
+        strict: 0,
+        'import/no-unresolved': 0,
         'node/no-missing-require': 0,
       },
     },
