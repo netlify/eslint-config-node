@@ -4,11 +4,4 @@
   semanticCommits: true,
   masterIssue: true,
   automerge: false,
-  packageRules: [
-    {
-      major: {
-        enabled: false,
-      },
-    },
-  ],
 }
