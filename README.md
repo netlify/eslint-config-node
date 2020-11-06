@@ -10,6 +10,9 @@ Linting and formatting configuration shared by Netlify Node.js repositories:
 
 ## How to add to a new Node.js repository
 
+If you're creating a new repository, you can use the
+[following GitHub template](https://github.com/netlify/node-template). Otherwise, please follow those steps:
+
 - `npm install -D @netlify/eslint-config-node`
 - Add the following `.eslintrc.js` to the root of the project. Individual `rules` and `overrides` can be tweaked for the
   specific project.
