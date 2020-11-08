@@ -29,3 +29,5 @@ jobs:
         if: "${{ matrix.node-version == '14.x' }}"
       - name: Tests
         run: npm run test:ci
+      - name: Codecov test coverage
+        run: bash bin/report_coverage.sh "${{ matrix.os }}" "${{ matrix.node-version }}"
