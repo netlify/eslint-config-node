@@ -10,8 +10,7 @@
     "bin"
   ],
   "bin": {
-    "run-e": "./bin/run_e.js",
-    "report-coverage": "./bin/report_coverage.js"
+    "run-e": "./bin/run_e.js"
   },
   "scripts": {
     "test": "run-s format test:dev",
