@@ -279,6 +279,8 @@ module.exports = {
     // TODO: enable after dropping Node 8 support
     'unicorn/prefer-optional-catch-binding': 0,
     'unicorn/prefer-trim-start-end': 0,
+    // TODO: enable after dropping Node <12 support
+    'unicorn/numeric-separators-style': 0,
   },
   overrides: [
     {
