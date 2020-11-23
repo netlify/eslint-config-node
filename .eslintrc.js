@@ -32,6 +32,7 @@ module.exports = {
     complexity: [2, 5],
     'consistent-this': 2,
     'default-case': 2,
+    'default-param-last': 2,
     'func-name-matching': [2, { considerPropertyDescriptor: true }],
     'func-names': [2, 'as-needed'],
     'func-style': 2,
