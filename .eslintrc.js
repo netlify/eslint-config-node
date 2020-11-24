@@ -93,6 +93,7 @@ module.exports = {
     'no-multi-assign': 2,
     'no-negated-condition': 2,
     'no-nested-ternary': 2,
+    'no-nonoctal-decimal-escape': 2,
     'no-param-reassign': [
       2,
       {
