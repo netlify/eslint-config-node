@@ -25,7 +25,8 @@
     "test:dev": "run-s test:dev:*",
     "test:ci": "run-s test:ci:*",
     "test:dev:ava": "ava",
-    "test:ci:ava": "nyc -r lcovonly -r text -r json ava"
+    "test:ci:ava": "nyc -r lcovonly -r text -r json ava",
+    "publish": "git push --follow-tags"
   },
   "scriptsArgs": {
     "eslint": "--ignore-path .gitignore --cache --format=codeframe --max-warnings=0 \"{bin,.github}/**/*.{js,md,html}\" \".*.js\"",
