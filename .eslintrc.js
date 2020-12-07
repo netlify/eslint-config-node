@@ -126,6 +126,7 @@ module.exports = {
     'object-shorthand': 2,
     'operator-assignment': 2,
     'padding-line-between-statements': 2,
+    'prefer-arrow-callback': [2, { allowNamedFunctions: true }],
     'prefer-destructuring': 2,
     'prefer-exponentiation-operator': 2,
     'prefer-numeric-literals': 2,
