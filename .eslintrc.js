@@ -119,6 +119,7 @@ module.exports = {
     'no-shadow': 2,
     'no-underscore-dangle': [2, { enforceInMethodNames: true }],
     'no-undef': [2, { typeof: true }],
+    'no-unsafe-optional-chaining': [2, { disallowArithmeticOperators: true }],
     'no-unused-vars': [2, {}],
     'no-useless-computed-key': [2, { enforceForClassMembers: true }],
     'no-useless-concat': 2,
