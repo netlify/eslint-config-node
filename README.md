@@ -33,7 +33,7 @@ module.exports = {
 "@netlify/eslint-config-node/.prettierrc.json"
 ```
 
-- Copy the `.editorconfig`,`.gitattributes` and `./scripts/run_on_error.js` files relativity to the root of the project.
+- Copy the `.editorconfig` and `.gitattributes` files relativity to the root of the project.
 - Add the following properties to the `package.json`. Please replace the `scriptsArgs` globbing expressions to match the
   files where the source JavaScript/Markdown/HTML/JSON/YAML files are located. `npm run format` should also be run
   during `npm test` and `npm run format:ci` during CI
@@ -44,16 +44,16 @@ module.exports = {
   "scripts": {
     "format": "run-s format:check-fix:*",
     "format:ci": "run-s format:check:*",
-    "format:check-fix:lint": "./scripts/run_on_error.js format:check:lint format:fix:lint",
+    "format:check-fix:lint": "run-e format:check:lint format:fix:lint",
     "format:check:lint": "cross-env-shell eslint $npm_package_scriptsArgs_eslint",
     "format:fix:lint": "cross-env-shell eslint --fix $npm_package_scriptsArgs_eslint",
-    "format:check-fix:prettier": "./scripts/run_on_error.js format:check:prettier format:fix:prettier",
+    "format:check-fix:prettier": "run-e format:check:prettier format:fix:prettier",
     "format:check:prettier": "cross-env-shell prettier --check $npm_package_scriptsArgs_prettier",
     "format:fix:prettier": "cross-env-shell prettier --write $npm_package_scriptsArgs_prettier"
   },
   "scriptsArgs": {
-    "eslint": "--ignore-path .gitignore --cache --format=codeframe --max-warnings=0 \"{src,scripts,site,tests,.github}/**/*.{js,md,html}\" \"*.{js,md,html}\" \".*.{js,md,html}\"",
-    "prettier": "--ignore-path .gitignore --loglevel=warn \"{src,scripts,site,tests,.github}/**/*.{js,md,yml,json,html}\" \"*.{js,yml,json,html}\" \".*.{js,yml,json,html}\" \"!package-lock.json\""
+    "eslint": "--ignore-path .gitignore --cache --format=codeframe --max-warnings=0 \"{src,scripts,tests,.github}/**/*.{js,md,html}\" \"*.{js,md,html}\" \".*.{js,md,html}\"",
+    "prettier": "--ignore-path .gitignore --loglevel=warn \"{src,scripts,tests,.github}/**/*.{js,md,yml,json,html}\" \"*.{js,yml,json,html}\" \".*.{js,yml,json,html}\" \"!package-lock.json\""
   },
   "husky": {
     "hooks": {
