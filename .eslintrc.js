@@ -85,6 +85,7 @@ module.exports = {
           404,
           410,
           422,
+          429,
           500,
         ],
         enforceConst: true,
