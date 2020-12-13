@@ -319,9 +319,14 @@ module.exports = {
       rules: {
         'no-undef': 0,
         'no-unused-vars': 0,
+
         // Inline comments making code samples vertically shorter are useful
         'line-comment-position': 0,
         'no-inline-comments': 0,
+
+        // Using literal numbers is simpler in documentation examples
+        'no-magic-numbers': 0,
+
         strict: 0,
         'import/no-unresolved': 0,
         'node/no-missing-require': 0,
