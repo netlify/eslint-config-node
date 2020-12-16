@@ -25,12 +25,11 @@
     "test:dev": "run-s test:dev:*",
     "test:ci": "run-s test:ci:*",
     "test:dev:ava": "ava",
-    "test:ci:ava": "nyc -r lcovonly -r text -r json ava",
-    "publish": "git push --follow-tags"
+    "test:ci:ava": "nyc -r lcovonly -r text -r json ava"
   },
   "scriptsArgs": {
     "eslint": "--ignore-path .gitignore --cache --format=codeframe --max-warnings=0 \"{bin,.github}/**/*.{js,md,html}\" \".*.js\"",
-    "prettier": "--ignore-path .gitignore --loglevel=warn \"{bin,.github}/**/*.{js,md,yml,json,html}\" \"*.{js,yml,json,html}\" \"!**/package-lock.json\" \"!package-lock.json\""
+    "prettier": "--ignore-path .gitignore --loglevel=warn \"{bin,.github}/**/*.{js,md,yml,json,html}\" \"*.{js,yml,json,html}\" \"!**/package-lock.json\" \"!CHANGELOG.md\""
   },
   "husky": {
     "hooks": {
