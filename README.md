@@ -33,6 +33,12 @@ module.exports = {
 "@netlify/eslint-config-node/.prettierrc.json"
 ```
 
+- Add the following `commitlint.config.js` to the root of the project:
+
+```js
+module.exports = { extends: ['@commitlint/config-conventional'] }
+```
+
 - Copy the `.editorconfig` and `.gitattributes` files relativity to the root of the project.
 - Add the following properties to the `package.json`. Please replace the `scriptsArgs` globbing expressions to match the
   files where the source JavaScript/Markdown/HTML/JSON/YAML files are located. `npm run format` should also be run
@@ -57,6 +63,7 @@ module.exports = {
   },
   "husky": {
     "hooks": {
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS",
       "pre-push": "npm run format"
     }
   }
