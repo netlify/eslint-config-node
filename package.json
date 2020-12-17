@@ -4,6 +4,8 @@
   "main": ".eslintrc.js",
   "files": [
     ".eslintrc.js",
+    "react_config.js",
+    "vanilla_js_config.js",
     ".prettierrc.json",
     ".editorconfig",
     ".gitattributes",
