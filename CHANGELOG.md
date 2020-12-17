@@ -1,5 +1,12 @@
 # Changelog
 
+### [2.2.1](https://www.github.com/netlify/eslint-config-node/compare/v2.2.0...v2.2.1) (2020-12-17)
+
+
+### Bug Fixes
+
+* add missing linting configurations ([#59](https://www.github.com/netlify/eslint-config-node/issues/59)) ([4dfcdad](https://www.github.com/netlify/eslint-config-node/commit/4dfcdad54cf0a39588e05da6c3e6f4ae87f82b30))
+
 ## [2.2.0](https://www.github.com/netlify/eslint-config-node/compare/v2.1.0...v2.2.0) (2020-12-17)
 
 
