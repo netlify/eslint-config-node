@@ -22,6 +22,7 @@ module.exports = {
       rules: {
         'unicorn/filename-case': 0,
         'node/no-unsupported-features/es-syntax': 0,
+        'unicorn/import-index': 0,
       },
     },
   ],
