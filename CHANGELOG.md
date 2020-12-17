@@ -1,5 +1,12 @@
 # Changelog
 
+### [2.2.2](https://www.github.com/netlify/eslint-config-node/compare/v2.2.1...v2.2.2) (2020-12-17)
+
+
+### Bug Fixes
+
+* **eslint-react:** disable unicorn/import-index ([#61](https://www.github.com/netlify/eslint-config-node/issues/61)) ([0322114](https://www.github.com/netlify/eslint-config-node/commit/0322114d908fced7388468ff6b63e589503ce4bc))
+
 ### [2.2.1](https://www.github.com/netlify/eslint-config-node/compare/v2.2.0...v2.2.1) (2020-12-17)
 
 
