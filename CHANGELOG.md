@@ -1,5 +1,12 @@
 # Changelog
 
+### [2.2.3](https://www.github.com/netlify/eslint-config-node/compare/v2.2.2...v2.2.3) (2020-12-21)
+
+
+### Bug Fixes
+
+* **deps:** update dependency eslint-plugin-unicorn to v24 ([#66](https://www.github.com/netlify/eslint-config-node/issues/66)) ([1c28700](https://www.github.com/netlify/eslint-config-node/commit/1c2870012ecf3185265410335eeb9bd66dfba3a5))
+
 ### [2.2.2](https://www.github.com/netlify/eslint-config-node/compare/v2.2.1...v2.2.2) (2020-12-17)
 
 
