@@ -1,5 +1,12 @@
 # Changelog
 
+### [2.2.5](https://www.github.com/netlify/eslint-config-node/compare/v2.2.4...v2.2.5) (2021-01-04)
+
+
+### Bug Fixes
+
+* unicorn ESLint plugin upgrade ([c8defbd](https://www.github.com/netlify/eslint-config-node/commit/c8defbda06128906e67df8ec62fe9abfd41acf0f))
+
 ### [2.2.4](https://www.github.com/netlify/eslint-config-node/compare/v2.2.3...v2.2.4) (2021-01-04)
 
 
