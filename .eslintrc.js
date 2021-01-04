@@ -268,7 +268,7 @@ module.exports = {
     'unicorn/better-regex': [2, { sortCharacterClasses: false }],
     // Too strict
     'unicorn/no-null': 0,
-    'unicorn/no-reduce': 0,
+    'unicorn/no-array-reduce': 0,
     // This rule gives too many false positives
     'unicorn/prevent-abbreviations': 0,
     // Conflicts with Prettier sometimes
@@ -277,13 +277,13 @@ module.exports = {
     'unicorn/no-unreadable-array-destructuring': 0,
     // Not useful for us
     'unicorn/expiring-todo-comments': 0,
-    'unicorn/no-fn-reference-in-iterator': 0,
+    'unicorn/no-array-callback-reference': 0,
     // TODO: enable those rules
     'unicorn/no-process-exit': 0,
     'unicorn/import-style': 0,
     // TODO: enable after dropping Node 8 support
     'unicorn/prefer-optional-catch-binding': 0,
-    'unicorn/prefer-trim-start-end': 0,
+    'unicorn/prefer-string-trim-start-end': 0,
     // TODO: enable after dropping Node <12 support
     'unicorn/numeric-separators-style': 0,
   },
