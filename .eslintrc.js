@@ -19,8 +19,6 @@ module.exports = {
     'plugin:react/recommended',
     'prettier/react',
     'plugin:you-dont-need-lodash-underscore/all',
-    // TODO: enable
-    // 'plugin:fp/recommended',
   ],
   reportUnusedDisableDirectives: true,
   rules: {
