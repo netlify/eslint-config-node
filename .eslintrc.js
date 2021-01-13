@@ -3,7 +3,7 @@ module.exports = {
   parserOptions: {
     sourceType: 'script',
   },
-  plugins: ['prettier', 'markdown', 'html', 'fp'],
+  plugins: ['markdown', 'html', 'fp'],
   extends: [
     'eslint:recommended',
     'standard',
