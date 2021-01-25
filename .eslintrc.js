@@ -267,6 +267,7 @@ module.exports = {
     // Too strict
     'unicorn/no-null': 0,
     'unicorn/no-array-reduce': 0,
+    'unicorn/no-array-for-each': 0,
     // This rule gives too many false positives
     'unicorn/prevent-abbreviations': 0,
     // Conflicts with Prettier sometimes
