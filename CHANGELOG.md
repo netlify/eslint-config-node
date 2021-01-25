@@ -1,5 +1,13 @@
 # Changelog
 
+### [2.2.6](https://www.github.com/netlify/eslint-config-node/compare/v2.2.5...v2.2.6) (2021-01-25)
+
+
+### Bug Fixes
+
+* **deps:** update dependency eslint-plugin-unicorn to v27 ([#92](https://www.github.com/netlify/eslint-config-node/issues/92)) ([46c7967](https://www.github.com/netlify/eslint-config-node/commit/46c796781382214c45d3fcc829b99e8db9f0a404))
+* disable `unicorn/no-array-for-each` ESLint rule ([e2ae70a](https://www.github.com/netlify/eslint-config-node/commit/e2ae70aad3ab213684a8f9c7124b64e5ec936784))
+
 ### [2.2.5](https://www.github.com/netlify/eslint-config-node/compare/v2.2.4...v2.2.5) (2021-01-04)
 
 
