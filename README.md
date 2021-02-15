@@ -13,7 +13,7 @@ Linting and formatting configuration shared by Netlify Node.js repositories:
 If you're creating a new repository, you can use the
 [following GitHub template](https://github.com/netlify/node-template). Otherwise, please follow those steps:
 
-- `npm install -D @netlify/eslint-config-node`
+- `npm install -D @netlify/eslint-config-node husky@4`
 - Add a `.eslintrc.js` file to the root of the project. Based on the type of the project update the content of the file:
 
 ### Node.js project
@@ -52,7 +52,7 @@ module.exports = {
 }
 ```
 
->Individual `rules` and `overrides` can be tweaked for the specific project.
+> Individual `rules` and `overrides` can be tweaked for the specific project.
 
 - Add the following `.prettierrc.json` to the root of the project:
 
