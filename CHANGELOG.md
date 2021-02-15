@@ -1,5 +1,13 @@
 # Changelog
 
+### [2.2.7](https://www.github.com/netlify/eslint-config-node/compare/v2.2.6...v2.2.7) (2021-02-15)
+
+
+### Bug Fixes
+
+* **deps:** update dependency eslint-plugin-markdown to v2 ([#105](https://www.github.com/netlify/eslint-config-node/issues/105)) ([09b54ff](https://www.github.com/netlify/eslint-config-node/commit/09b54ff82640b22ea7c8ef96c0b86e181270e4d5))
+* **deps:** update dependency eslint-plugin-unicorn to v28 ([#106](https://www.github.com/netlify/eslint-config-node/issues/106)) ([1d1e45c](https://www.github.com/netlify/eslint-config-node/commit/1d1e45c6d8383e2ec189dea96c5b2b970f7bed13))
+
 ### [2.2.6](https://www.github.com/netlify/eslint-config-node/compare/v2.2.5...v2.2.6) (2021-01-25)
 
 
