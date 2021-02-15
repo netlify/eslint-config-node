@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.3.0](https://www.github.com/netlify/eslint-config-node/compare/v2.2.7...v2.3.0) (2021-02-15)
+
+
+### Features
+
+* add husky to readme ([#110](https://www.github.com/netlify/eslint-config-node/issues/110)) ([133da46](https://www.github.com/netlify/eslint-config-node/commit/133da46306c30efa270d068b0553409c0cf49350))
+
 ### [2.2.7](https://www.github.com/netlify/eslint-config-node/compare/v2.2.6...v2.2.7) (2021-02-15)
 
 
