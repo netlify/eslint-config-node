@@ -35,7 +35,7 @@
     "prepublishOnly:test": "npm test"
   },
   "config": {
-    "eslint": "--ignore-path .gitignore --cache --format=codeframe --max-warnings=0 \"{bin,.github}/**/*.{js,md,html}\" \".*.js\"",
+    "eslint": "--ignore-path .gitignore --cache --format=codeframe --max-warnings=0 \"{bin,.github}/**/*.{js,md,html}\" \".*.js\" \"*.md\"",
     "prettier": "--ignore-path .gitignore --loglevel=warn \"{bin,.github}/**/*.{js,md,yml,json,html}\" \"*.{js,yml,json,html}\" \"!**/package-lock.json\" \"!CHANGELOG.md\""
   },
   "husky": {

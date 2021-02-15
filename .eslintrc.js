@@ -19,6 +19,7 @@ module.exports = {
     'plugin:react/recommended',
     'prettier/react',
     'plugin:you-dont-need-lodash-underscore/all',
+    'plugin:markdown/recommended',
   ],
   reportUnusedDisableDirectives: true,
   rules: {
@@ -314,7 +315,7 @@ module.exports = {
       },
     },
     {
-      files: ['**/*.md'],
+      files: ['**/*.md/*.js'],
       rules: {
         'no-undef': 0,
         'no-unused-vars': 0,
