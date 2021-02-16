@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.4.0](https://www.github.com/netlify/eslint-config-node/compare/v2.3.0...v2.4.0) (2021-02-16)
+
+
+### Features
+
+* update markdown code blocks rules ([#112](https://www.github.com/netlify/eslint-config-node/issues/112)) ([0b5ce18](https://www.github.com/netlify/eslint-config-node/commit/0b5ce1817c10fff4dcfcf5f3a05be0cfdc7eb0d0))
+
 ## [2.3.0](https://www.github.com/netlify/eslint-config-node/compare/v2.2.7...v2.3.0) (2021-02-15)
 
 
