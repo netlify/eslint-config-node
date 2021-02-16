@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.5.0](https://www.github.com/netlify/eslint-config-node/compare/v2.4.0...v2.5.0) (2021-02-16)
+
+
+### Features
+
+* fix linting in Markdown files ([8c8b371](https://www.github.com/netlify/eslint-config-node/commit/8c8b3713f3f55e3015ca2794af992469fa7f0891))
+
 ## [2.4.0](https://www.github.com/netlify/eslint-config-node/compare/v2.3.0...v2.4.0) (2021-02-16)
 
 
