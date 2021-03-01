@@ -73,11 +73,12 @@
     "test": "test"
   },
   "dependencies": {
+    "@babel/core": "^7.13.8",
+    "@babel/eslint-parser": "^7.13.8",
     "@commitlint/cli": "^12.0.0",
     "@commitlint/config-conventional": "^12.0.0",
-    "babel-eslint": "^10.1.0",
     "cross-env": "^7.0.2",
-    "eslint": "^7.11.0",
+    "eslint": "^7.21.0",
     "eslint-config-prettier": "^8.0.0",
     "eslint-config-standard": "^16.0.0",
     "eslint-import-resolver-node": "^0.3.4",
@@ -98,8 +99,6 @@
     "prettier": "^2.1.2"
   },
   "devDependencies": {
-    "@commitlint/cli": "^12.0.0",
-    "@commitlint/config-conventional": "^12.0.0",
     "ava": "^3.13.0",
     "nyc": "^15.1.0"
   },
