@@ -1,5 +1,12 @@
 # Changelog
 
+### [2.5.2](https://www.github.com/netlify/eslint-config-node/compare/v2.5.1...v2.5.2) (2021-03-01)
+
+
+### Bug Fixes
+
+* **deps:** use @babel/eslint-parser ([#125](https://www.github.com/netlify/eslint-config-node/issues/125)) ([fc3d102](https://www.github.com/netlify/eslint-config-node/commit/fc3d1020a90b038ba86d235fd9cd5549e7c463d1))
+
 ### [2.5.1](https://www.github.com/netlify/eslint-config-node/compare/v2.5.0...v2.5.1) (2021-02-22)
 
 
