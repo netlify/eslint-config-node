@@ -70,7 +70,7 @@ module.exports = { extends: ['@commitlint/config-conventional'] }
 - Add the following properties to the `package.json`. Please replace the `config` globbing expressions to match the
   files where the source JavaScript/Markdown/HTML/JSON/YAML files are located. `npm run format` should also be run
   during `npm test` and `npm run format:ci` during CI
-  ([example](https://github.com/netlify/cli/blob/master/.github/workflows/main.yml)).
+  ([example](https://github.com/netlify/cli/blob/main/.github/workflows/main.yml)).
 
 ```json
 {
