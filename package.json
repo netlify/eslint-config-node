@@ -28,11 +28,7 @@
     "test:ci": "run-s test:ci:*",
     "test:dev:ava": "ava",
     "test:ci:ava": "nyc -r lcovonly -r text -r json ava",
-    "prepublishOnly": "run-s prepublishOnly:*",
-    "prepublishOnly:checkout": "git checkout main",
-    "prepublishOnly:pull": "git pull",
-    "prepublishOnly:install": "npm ci",
-    "prepublishOnly:test": "npm test"
+    "prepublishOnly": "npm ci && npm test"
   },
   "config": {
     "eslint": "--ignore-path .gitignore --cache --format=codeframe --max-warnings=0 \"{bin,.github}/**/*.{js,md,html}\" \".*.js\" \"*.md\"",
