@@ -1,5 +1,12 @@
 # Changelog
 
+### [2.5.4](https://www.github.com/netlify/eslint-config-node/compare/v2.5.3...v2.5.4) (2021-03-29)
+
+
+### Bug Fixes
+
+* **deps:** update dependency eslint-plugin-ava to v12 ([#144](https://www.github.com/netlify/eslint-config-node/issues/144)) ([599a60c](https://www.github.com/netlify/eslint-config-node/commit/599a60c5b8deac10208adf3a65beab7ceba42598))
+
 ### [2.5.3](https://www.github.com/netlify/eslint-config-node/compare/v2.5.2...v2.5.3) (2021-03-22)
 
 
