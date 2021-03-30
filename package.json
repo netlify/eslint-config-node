@@ -12,7 +12,9 @@
     "bin"
   ],
   "bin": {
-    "run-e": "./bin/run_e.js"
+    "run-e": "./bin/run_e.js",
+    "run-ci": "./bin/run_ci.js",
+    "run-local": "./bin/run_local.js"
   },
   "scripts": {
     "test": "run-s format test:dev",
@@ -91,6 +93,7 @@
     "eslint-plugin-you-dont-need-lodash-underscore": "^6.10.0",
     "execa": "^5.0.0",
     "husky": "^4.3.0",
+    "is-ci": "^2.0.0",
     "npm-run-all": "^4.1.5",
     "prettier": "^2.1.2"
   },
