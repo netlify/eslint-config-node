@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.6.0](https://www.github.com/netlify/eslint-config-node/compare/v2.5.4...v2.6.0) (2021-03-30)
+
+
+### Features
+
+* add run-ci and run-local bins ([#148](https://www.github.com/netlify/eslint-config-node/issues/148)) ([35eceb5](https://www.github.com/netlify/eslint-config-node/commit/35eceb59d64a87020dcf9b6394a8789100c47fc7))
+
 ### [2.5.4](https://www.github.com/netlify/eslint-config-node/compare/v2.5.3...v2.5.4) (2021-03-29)
 
 
