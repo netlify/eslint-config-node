@@ -1,5 +1,14 @@
 # Changelog
 
+### [2.6.1](https://www.github.com/netlify/eslint-config-node/compare/v2.6.0...v2.6.1) (2021-04-05)
+
+
+### Bug Fixes
+
+* **deps:** update babel monorepo to v7.13.14 ([e2f3c51](https://www.github.com/netlify/eslint-config-node/commit/e2f3c51a336e7b488aa00e33f99eb2f1a0b6d421))
+* **deps:** update commitlint monorepo to v12.1.1 ([63af7fc](https://www.github.com/netlify/eslint-config-node/commit/63af7fc6acbc6ceb274e89f56d0af3b0b48d4ef4))
+* **deps:** update dependency is-ci to v3 ([#153](https://www.github.com/netlify/eslint-config-node/issues/153)) ([8d3fdc0](https://www.github.com/netlify/eslint-config-node/commit/8d3fdc084d3a3d14b49daa7fada80a2fbb6fe9ed))
+
 ## [2.6.0](https://www.github.com/netlify/eslint-config-node/compare/v2.5.4...v2.6.0) (2021-03-30)
 
 
