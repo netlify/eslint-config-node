@@ -3,7 +3,6 @@ on:
   push:
     branches:
       - main
-      - chore/use_github_app
 jobs:
   release-please:
     runs-on: ubuntu-latest
