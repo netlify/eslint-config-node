@@ -1,5 +1,14 @@
 # Changelog
 
+### [2.6.2](https://www.github.com/netlify/eslint-config-node/compare/v2.6.1...v2.6.2) (2021-04-12)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @babel/core to v7.13.15 ([1b2f2b5](https://www.github.com/netlify/eslint-config-node/commit/1b2f2b5deee03cd2a1b9af28761607debcc2aaa8))
+* **deps:** update dependency eslint to v7.24.0 ([af91d9b](https://www.github.com/netlify/eslint-config-node/commit/af91d9b6d4fb24b03ae723de96c69a70aab6f131))
+* **deps:** update dependency eslint-plugin-react to v7.23.2 ([55b0191](https://www.github.com/netlify/eslint-config-node/commit/55b0191dfe0ddee6f788c9d3c86e90b3b6bcc9fb))
+
 ### [2.6.1](https://www.github.com/netlify/eslint-config-node/compare/v2.6.0...v2.6.1) (2021-04-05)
 
 
