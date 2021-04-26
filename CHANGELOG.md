@@ -1,5 +1,12 @@
 # Changelog
 
+### [2.6.4](https://www.github.com/netlify/eslint-config-node/compare/v2.6.3...v2.6.4) (2021-04-26)
+
+
+### Bug Fixes
+
+* disable prefer-node-protocol ([#171](https://www.github.com/netlify/eslint-config-node/issues/171)) ([d5b8fd9](https://www.github.com/netlify/eslint-config-node/commit/d5b8fd9fd7886f2eb82dc43653909683f7b1f300))
+
 ### [2.6.3](https://www.github.com/netlify/eslint-config-node/compare/v2.6.2...v2.6.3) (2021-04-26)
 
 
