@@ -1,5 +1,15 @@
 # Changelog
 
+### [2.6.3](https://www.github.com/netlify/eslint-config-node/compare/v2.6.2...v2.6.3) (2021-04-26)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @babel/core to v7.13.16 ([4231849](https://www.github.com/netlify/eslint-config-node/commit/42318490d18ac18b16c5e3a355ccfde2073f2f34))
+* **deps:** update dependency eslint to v7.25.0 ([1d1782f](https://www.github.com/netlify/eslint-config-node/commit/1d1782f46464ca884e83b13114d5fd04c7d16b86))
+* **deps:** update dependency eslint-config-prettier to v8.3.0 ([98d6089](https://www.github.com/netlify/eslint-config-node/commit/98d6089643c4ed58e508c57ab52592974af98aa5))
+* **deps:** update dependency eslint-plugin-unicorn to v31 ([#168](https://www.github.com/netlify/eslint-config-node/issues/168)) ([1a598c6](https://www.github.com/netlify/eslint-config-node/commit/1a598c6a89883b248fb3a64ea6d7cdcdfb5e4b03))
+
 ### [2.6.2](https://www.github.com/netlify/eslint-config-node/compare/v2.6.1...v2.6.2) (2021-04-12)
 
 
