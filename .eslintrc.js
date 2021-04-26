@@ -269,6 +269,8 @@ module.exports = {
     'unicorn/no-array-reduce': 0,
     'unicorn/no-array-for-each': 0,
     'unicorn/prefer-module': 0,
+    // Conflicts with no-unresolved and no-missing-import
+    'unicorn/prefer-node-protocol': 0,
     // This rule gives too many false positives
     'unicorn/prevent-abbreviations': 0,
     // Conflicts with Prettier sometimes
