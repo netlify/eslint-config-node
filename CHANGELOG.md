@@ -1,5 +1,12 @@
 # Changelog
 
+### [2.6.5](https://www.github.com/netlify/eslint-config-node/compare/v2.6.4...v2.6.5) (2021-05-03)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @babel/core to v7.14.0 ([c622d54](https://www.github.com/netlify/eslint-config-node/commit/c622d549731d1eaebc6b004777946b1a6064d9b8))
+
 ### [2.6.4](https://www.github.com/netlify/eslint-config-node/compare/v2.6.3...v2.6.4) (2021-04-26)
 
 
