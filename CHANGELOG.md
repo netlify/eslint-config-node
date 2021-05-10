@@ -1,5 +1,12 @@
 # Changelog
 
+### [2.6.7](https://www.github.com/netlify/eslint-config-node/compare/v2.6.6...v2.6.7) (2021-05-10)
+
+
+### Bug Fixes
+
+* disable unicorn flat and flatmap rules ([#182](https://www.github.com/netlify/eslint-config-node/issues/182)) ([c198c3d](https://www.github.com/netlify/eslint-config-node/commit/c198c3de9a567de3a5c8f79733e8a84934f43f65))
+
 ### [2.6.6](https://www.github.com/netlify/eslint-config-node/compare/v2.6.5...v2.6.6) (2021-05-10)
 
 
