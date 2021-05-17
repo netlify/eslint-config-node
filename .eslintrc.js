@@ -176,7 +176,7 @@ module.exports = {
       },
     ],
 
-    'import/extensions': [2, 'always', { ignorePackages: true }],
+    'import/extensions': [2, 'never'],
     'import/max-dependencies': [2, { max: 20 }],
     'import/newline-after-import': 2,
     'import/no-amd': 2,
