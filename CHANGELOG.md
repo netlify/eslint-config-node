@@ -1,5 +1,12 @@
 # Changelog
 
+### [2.6.10](https://www.github.com/netlify/eslint-config-node/compare/v2.6.9...v2.6.10) (2021-05-17)
+
+
+### Miscellaneous Chores
+
+* release 2.6.10 ([eaf516d](https://www.github.com/netlify/eslint-config-node/commit/eaf516d94018e9fdad2f5c3c649f5540a0dc87f8))
+
 ### [2.6.9](https://www.github.com/netlify/eslint-config-node/compare/v2.6.8...v2.6.9) (2021-05-17)
 
 
