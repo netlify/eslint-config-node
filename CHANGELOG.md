@@ -1,5 +1,12 @@
 # Changelog
 
+### [2.6.9](https://www.github.com/netlify/eslint-config-node/compare/v2.6.8...v2.6.9) (2021-05-17)
+
+
+### Bug Fixes
+
+* import/extensions rule ([c7ccba7](https://www.github.com/netlify/eslint-config-node/commit/c7ccba70a7669436d1ed565ff936a4ad986c573a))
+
 ### [2.6.8](https://www.github.com/netlify/eslint-config-node/compare/v2.6.7...v2.6.8) (2021-05-17)
 
 
