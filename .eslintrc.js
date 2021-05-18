@@ -206,7 +206,6 @@ module.exports = {
     'node/no-sync': 2,
     'node/callback-return': 2,
     'node/exports-style': 2,
-    'node/file-extension-in-import': 2,
     'node/global-require': 2,
     'node/no-mixed-requires': 2,
     // Using path.join() is often not needed when using only core Node.js APIs
