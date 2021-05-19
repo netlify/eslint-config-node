@@ -1,5 +1,12 @@
 # Changelog
 
+### [2.6.11](https://www.github.com/netlify/eslint-config-node/compare/v2.6.10...v2.6.11) (2021-05-19)
+
+
+### Bug Fixes
+
+* remove file-extension-in-import ([#193](https://www.github.com/netlify/eslint-config-node/issues/193)) ([6609f96](https://www.github.com/netlify/eslint-config-node/commit/6609f96f72073cb476c75d795ef071f2aadf50e0))
+
 ### [2.6.10](https://www.github.com/netlify/eslint-config-node/compare/v2.6.9...v2.6.10) (2021-05-17)
 
 
