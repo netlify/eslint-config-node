@@ -1,5 +1,16 @@
 # Changelog
 
+## [3.0.0](https://www.github.com/netlify/eslint-config-node/compare/v2.6.11...v3.0.0) (2021-05-20)
+
+
+### ⚠ BREAKING CHANGES
+
+* require Node 16 (#198)
+
+### Miscellaneous Chores
+
+* require Node 16 ([#198](https://www.github.com/netlify/eslint-config-node/issues/198)) ([2ccd619](https://www.github.com/netlify/eslint-config-node/commit/2ccd619f19b06eabfcc561184a2ccece12c69874))
+
 ### [2.6.11](https://www.github.com/netlify/eslint-config-node/compare/v2.6.10...v2.6.11) (2021-05-19)
 
 
