@@ -14,7 +14,6 @@ module.exports = {
     'plugin:node/recommended',
     'plugin:import/recommended',
     'plugin:promise/recommended',
-    'plugin:fp/recommended',
     'plugin:ava/recommended',
     'plugin:react/recommended',
     'plugin:you-dont-need-lodash-underscore/all',
@@ -138,43 +137,6 @@ module.exports = {
     'fp/no-unused-expression': 0,
     'fp/no-nil': 0,
     'fp/no-throw': 0,
-    // Avoid state mutation except for some known state variables
-    'fp/no-mutating-methods': [
-      2,
-      {
-        allowedObjects: [
-          'error',
-          'errorA',
-          'req',
-          'request',
-          'res',
-          'response',
-          'state',
-          'runState',
-          'logs',
-          'logsArray',
-          'currentEnv',
-          't',
-        ],
-      },
-    ],
-    'fp/no-mutation': [
-      2,
-      {
-        commonjs: true,
-        exceptions: [
-          { object: 'error' },
-          { object: 'errorA' },
-          { object: 'res' },
-          { object: 'state' },
-          { object: 'runState' },
-          { object: 'logs' },
-          { object: 'logsArray' },
-          { object: 'currentEnv' },
-          { object: 'process', property: 'exitCode' },
-        ],
-      },
-    ],
 
     'import/extensions': [2, 'never', { json: 'always' }],
     'import/max-dependencies': [2, { max: 20 }],
