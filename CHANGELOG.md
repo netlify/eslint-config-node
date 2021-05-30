@@ -1,5 +1,12 @@
 # Changelog
 
+### [3.0.2](https://www.github.com/netlify/eslint-config-node/compare/v3.0.1...v3.0.2) (2021-05-30)
+
+
+### Bug Fixes
+
+* make functional programming linting opt-in ([#206](https://www.github.com/netlify/eslint-config-node/issues/206)) ([d984904](https://www.github.com/netlify/eslint-config-node/commit/d984904ab053a0ccb44f278bbbd51ed6a3255d11))
+
 ### [3.0.1](https://www.github.com/netlify/eslint-config-node/compare/v3.0.0...v3.0.1) (2021-05-24)
 
 
