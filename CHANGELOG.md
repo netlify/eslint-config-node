@@ -1,5 +1,13 @@
 # Changelog
 
+### [3.0.3](https://www.github.com/netlify/eslint-config-node/compare/v3.0.2...v3.0.3) (2021-05-30)
+
+
+### Bug Fixes
+
+* **deps:** update dependency eslint-config-standard to v16.0.3 ([#208](https://www.github.com/netlify/eslint-config-node/issues/208)) ([f84e75a](https://www.github.com/netlify/eslint-config-node/commit/f84e75a22d9cb38d68d35873a800d56d0539f834))
+* **deps:** update dependency eslint-plugin-promise to v5 ([#160](https://www.github.com/netlify/eslint-config-node/issues/160)) ([55275bd](https://www.github.com/netlify/eslint-config-node/commit/55275bd3c96dd44fdf588e2a278fb836fe7b1265))
+
 ### [3.0.2](https://www.github.com/netlify/eslint-config-node/compare/v3.0.1...v3.0.2) (2021-05-30)
 
 
