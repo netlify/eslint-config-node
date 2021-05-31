@@ -1,5 +1,13 @@
 # Changelog
 
+### [3.0.4](https://www.github.com/netlify/eslint-config-node/compare/v3.0.3...v3.0.4) (2021-05-31)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @babel/eslint-parser to v7.14.4 ([b8357bd](https://www.github.com/netlify/eslint-config-node/commit/b8357bdb8b3c10ee88d43e807df9ea493967b893))
+* **deps:** update dependency eslint-plugin-import to v2.23.4 ([381290d](https://www.github.com/netlify/eslint-config-node/commit/381290db67d23545f488fa71c863a3b8959adcc6))
+
 ### [3.0.3](https://www.github.com/netlify/eslint-config-node/compare/v3.0.2...v3.0.3) (2021-05-30)
 
 
