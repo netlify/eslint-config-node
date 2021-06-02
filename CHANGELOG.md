@@ -1,5 +1,12 @@
 # Changelog
 
+## [3.1.0](https://www.github.com/netlify/eslint-config-node/compare/v3.0.4...v3.1.0) (2021-06-02)
+
+
+### Features
+
+* add more status codes to `no-magic-numbers` ([#217](https://www.github.com/netlify/eslint-config-node/issues/217)) ([a30ae28](https://www.github.com/netlify/eslint-config-node/commit/a30ae28cae5d2b068731a01c8370aa4b0c3afc0c))
+
 ### [3.0.4](https://www.github.com/netlify/eslint-config-node/compare/v3.0.3...v3.0.4) (2021-05-31)
 
 
