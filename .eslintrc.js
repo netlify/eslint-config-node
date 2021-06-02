@@ -1,3 +1,5 @@
+const { codes: httpStatusCodes } = require('statuses')
+
 module.exports = {
   parser: '@babel/eslint-parser',
   parserOptions: {
@@ -62,10 +64,14 @@ module.exports = {
       2,
       {
         ignore: [
+          ...httpStatusCodes,
           // Common small numbers
-          -2, -1, 0, 1, 2, 3,
-          // HTTP statuses
-          200, 201, 202, 204, 300, 301, 400, 401, 403, 404, 410, 422, 429, 500,
+          -2,
+          -1,
+          0,
+          1,
+          2,
+          3,
         ],
         enforceConst: true,
         detectObjects: true,
