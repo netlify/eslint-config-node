@@ -1,5 +1,12 @@
 # Changelog
 
+### [3.1.3](https://www.github.com/netlify/eslint-config-node/compare/v3.1.2...v3.1.3) (2021-06-07)
+
+
+### Bug Fixes
+
+* **linting:** disable prefer-prototype-methods ([#228](https://www.github.com/netlify/eslint-config-node/issues/228)) ([6f7ed31](https://www.github.com/netlify/eslint-config-node/commit/6f7ed3103c3b3314a1a56283f2cbc286fab8480d))
+
 ### [3.1.2](https://www.github.com/netlify/eslint-config-node/compare/v3.1.1...v3.1.2) (2021-06-07)
 
 
