@@ -213,6 +213,10 @@ module.exports = {
     'unicorn/filename-case': [2, { case: 'snakeCase', ignore: ['.*.md'] }],
     // The `sortCharacterClasses` option is not very useful
     'unicorn/better-regex': [2, { sortCharacterClasses: false }],
+
+    // TODO: enable once https://github.com/sindresorhus/eslint-plugin-unicorn/issues/1343 is fixed
+    'unicorn/prefer-prototype-methods': 0,
+
     // Too strict
     'unicorn/no-null': 0,
     'unicorn/no-array-reduce': 0,
