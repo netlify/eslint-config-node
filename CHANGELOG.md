@@ -1,5 +1,14 @@
 # Changelog
 
+### [3.1.2](https://www.github.com/netlify/eslint-config-node/compare/v3.1.1...v3.1.2) (2021-06-07)
+
+
+### Bug Fixes
+
+* **deps:** update dependency eslint to v7.28.0 ([b625be7](https://www.github.com/netlify/eslint-config-node/commit/b625be7b96fb62071ec8ee069b625f56d9053c34))
+* **deps:** update dependency eslint-plugin-unicorn to v33 ([#223](https://www.github.com/netlify/eslint-config-node/issues/223)) ([2411134](https://www.github.com/netlify/eslint-config-node/commit/2411134f380c416bd6930e563d69ae0fafdcf3e4))
+* **deps:** update dependency execa to v5.1.1 ([bea1012](https://www.github.com/netlify/eslint-config-node/commit/bea101260cedab3d287a6032e12fd661beb04c28))
+
 ### [3.1.1](https://www.github.com/netlify/eslint-config-node/compare/v3.1.0...v3.1.1) (2021-06-02)
 
 
