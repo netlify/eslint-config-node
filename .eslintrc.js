@@ -178,6 +178,12 @@ module.exports = {
     'node/no-mixed-requires': 2,
     // Using path.join() is often not needed when using only core Node.js APIs
     'node/no-path-concat': 0,
+    'node/no-unsupported-features/es-syntax': [
+      'error',
+      {
+        ignores: ['modules'],
+      },
+    ],
     // Browser globals should not use `require()`. Non-browser globals should
     'node/prefer-global/console': 2,
     'node/prefer-global/buffer': [2, 'never'],
@@ -298,8 +304,32 @@ module.exports = {
         'import/no-extraneous-dependencies': 0,
       },
     },
+
+    // TypeScript-specific settings.
+    {
+      files: ['*.ts'],
+      extends: [
+        'plugin:@typescript-eslint/eslint-recommended',
+        'plugin:@typescript-eslint/recommended',
+        'plugin:import/typescript',
+      ],
+    },
   ],
   settings: {
+    'import/parsers': {
+      '@typescript-eslint/parser': ['.ts', '.tsx'],
+    },
+    'import/resolver': {
+      node: {
+        extensions: ['.js', '.jsx', '.d.ts', '.ts', '.tsx'],
+      },
+      typescript: {
+        alwaysTryTypes: true,
+      },
+    },
+    node: {
+      tryExtensions: ['.js', '.ts', '.d.ts'],
+    },
     react: {
       version: '16.13.1',
     },
