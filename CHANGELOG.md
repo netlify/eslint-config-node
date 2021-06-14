@@ -1,5 +1,12 @@
 # Changelog
 
+### [3.1.4](https://www.github.com/netlify/eslint-config-node/compare/v3.1.3...v3.1.4) (2021-06-14)
+
+
+### Bug Fixes
+
+* **deps:** update babel monorepo to v7.14.5 ([de0cb89](https://www.github.com/netlify/eslint-config-node/commit/de0cb89008e9f2e70ea0963278d3f8d7841b223d))
+
 ### [3.1.3](https://www.github.com/netlify/eslint-config-node/compare/v3.1.2...v3.1.3) (2021-06-07)
 
 
