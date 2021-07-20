@@ -1,5 +1,12 @@
 # Changelog
 
+### [3.1.8](https://www.github.com/netlify/eslint-config-node/compare/v3.1.7...v3.1.8) (2021-07-19)
+
+
+### Bug Fixes
+
+* **deps:** update dependency eslint to v7.31.0 ([37895ec](https://www.github.com/netlify/eslint-config-node/commit/37895ecdc120283fd1a6c17c897954bee9ffe439))
+
 ### [3.1.7](https://www.github.com/netlify/eslint-config-node/compare/v3.1.6...v3.1.7) (2021-07-05)
 
 
