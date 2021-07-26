@@ -1,5 +1,13 @@
 # Changelog
 
+### [3.1.9](https://www.github.com/netlify/eslint-config-node/compare/v3.1.8...v3.1.9) (2021-07-26)
+
+
+### Bug Fixes
+
+* **deps:** update commitlint monorepo to v13 ([#257](https://www.github.com/netlify/eslint-config-node/issues/257)) ([481713c](https://www.github.com/netlify/eslint-config-node/commit/481713ccbd5e2e2d700c2fe811ecd59737c49092))
+* **deps:** update dependency @babel/core to v7.14.8 ([544c11d](https://www.github.com/netlify/eslint-config-node/commit/544c11d16094880cb5711097ec9bf4474cb4a9d2))
+
 ### [3.1.8](https://www.github.com/netlify/eslint-config-node/compare/v3.1.7...v3.1.8) (2021-07-19)
 
 
