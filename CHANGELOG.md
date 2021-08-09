@@ -1,5 +1,12 @@
 # Changelog
 
+### [3.2.1](https://www.github.com/netlify/eslint-config-node/compare/v3.2.0...v3.2.1) (2021-08-09)
+
+
+### Bug Fixes
+
+* disable `unicorn/prefer-object-from-entries` ([#275](https://www.github.com/netlify/eslint-config-node/issues/275)) ([3acbfd4](https://www.github.com/netlify/eslint-config-node/commit/3acbfd43a01affbc8fed39ea7ece45a65db0d5a3))
+
 ## [3.2.0](https://www.github.com/netlify/eslint-config-node/compare/v3.1.11...v3.2.0) (2021-08-09)
 
 
