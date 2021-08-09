@@ -1,5 +1,14 @@
 # Changelog
 
+### [3.1.11](https://www.github.com/netlify/eslint-config-node/compare/v3.1.10...v3.1.11) (2021-08-09)
+
+
+### Bug Fixes
+
+* **deps:** update dependency eslint-import-resolver-node to v0.3.5 ([f5df83c](https://www.github.com/netlify/eslint-config-node/commit/f5df83c0fa7e3479ab9a54ee54284c9fd59ede7a))
+* **deps:** update dependency eslint-plugin-import to v2.24.0 ([cd3924c](https://www.github.com/netlify/eslint-config-node/commit/cd3924c21d3801be868222598d6f7618a760725c))
+* **deps:** update dependency eslint-plugin-unicorn to v35 ([#269](https://www.github.com/netlify/eslint-config-node/issues/269)) ([157984c](https://www.github.com/netlify/eslint-config-node/commit/157984c6958b3b85c0ccf530e118989b98c0be04))
+
 ### [3.1.10](https://www.github.com/netlify/eslint-config-node/compare/v3.1.9...v3.1.10) (2021-08-02)
 
 
