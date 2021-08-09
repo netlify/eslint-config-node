@@ -1,5 +1,12 @@
 # Changelog
 
+## [3.2.0](https://www.github.com/netlify/eslint-config-node/compare/v3.1.11...v3.2.0) (2021-08-09)
+
+
+### Features
+
+* use new options from latest version of `eslint-plugin-import` ([#273](https://www.github.com/netlify/eslint-config-node/issues/273)) ([979ab61](https://www.github.com/netlify/eslint-config-node/commit/979ab61f1b6075686a8b12d97300aa443d59d243))
+
 ### [3.1.11](https://www.github.com/netlify/eslint-config-node/compare/v3.1.10...v3.1.11) (2021-08-09)
 
 
