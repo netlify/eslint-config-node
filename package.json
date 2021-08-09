@@ -1,6 +1,6 @@
 {
   "name": "@netlify/eslint-config-node",
-  "version": "3.1.10",
+  "version": "3.1.11",
   "main": ".eslintrc.js",
   "files": [
     ".eslintrc.js",
