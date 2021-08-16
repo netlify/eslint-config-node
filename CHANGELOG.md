@@ -1,5 +1,12 @@
 # Changelog
 
+### [3.2.2](https://www.github.com/netlify/eslint-config-node/compare/v3.2.1...v3.2.2) (2021-08-16)
+
+
+### Bug Fixes
+
+* **deps:** update dependency eslint-import-resolver-node to v0.3.6 ([983f5dd](https://www.github.com/netlify/eslint-config-node/commit/983f5dddf95e1b924acddb1cea8d74cc8af94544))
+
 ### [3.2.1](https://www.github.com/netlify/eslint-config-node/compare/v3.2.0...v3.2.1) (2021-08-09)
 
 
