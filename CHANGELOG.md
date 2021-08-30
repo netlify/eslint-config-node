@@ -1,5 +1,12 @@
 # Changelog
 
+### [3.2.5](https://www.github.com/netlify/eslint-config-node/compare/v3.2.4...v3.2.5) (2021-08-30)
+
+
+### Bug Fixes
+
+* **deps:** update dependency eslint-plugin-react to v7.25.1 ([#289](https://www.github.com/netlify/eslint-config-node/issues/289)) ([b07ed09](https://www.github.com/netlify/eslint-config-node/commit/b07ed09fe3ae06fe01e8cd85a77a62bbb83eb96d))
+
 ### [3.2.4](https://www.github.com/netlify/eslint-config-node/compare/v3.2.3...v3.2.4) (2021-08-25)
 
 
