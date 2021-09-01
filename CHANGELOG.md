@@ -1,5 +1,12 @@
 # Changelog
 
+### [3.2.6](https://www.github.com/netlify/eslint-config-node/compare/v3.2.5...v3.2.6) (2021-09-01)
+
+
+### Bug Fixes
+
+* `import/no-cycle` rule makes linting fail in CI ([#292](https://www.github.com/netlify/eslint-config-node/issues/292)) ([4700216](https://www.github.com/netlify/eslint-config-node/commit/47002160891f7893851abc8111e4bf74b0c425c9))
+
 ### [3.2.5](https://www.github.com/netlify/eslint-config-node/compare/v3.2.4...v3.2.5) (2021-08-30)
 
 
