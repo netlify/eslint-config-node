@@ -149,7 +149,7 @@ module.exports = {
     'import/newline-after-import': 2,
     'import/no-amd': 2,
     'import/no-anonymous-default-export': 2,
-    'import/no-cycle': [2, { commonjs: true }],
+    'import/no-cycle': 2,
     'import/no-deprecated': 2,
     'import/no-dynamic-require': [2, { esmodule: true }],
     'import/no-extraneous-dependencies': 2,
