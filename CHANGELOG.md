@@ -1,5 +1,12 @@
 # Changelog
 
+### [3.2.8](https://www.github.com/netlify/eslint-config-node/compare/v3.2.7...v3.2.8) (2021-09-16)
+
+
+### Bug Fixes
+
+* **deps:** update dependency prettier to v2.4.1 ([#297](https://www.github.com/netlify/eslint-config-node/issues/297)) ([d756b06](https://www.github.com/netlify/eslint-config-node/commit/d756b0652dd05f8310554cbf8997a53462c3e9e0))
+
 ### [3.2.7](https://www.github.com/netlify/eslint-config-node/compare/v3.2.6...v3.2.7) (2021-09-13)
 
 
