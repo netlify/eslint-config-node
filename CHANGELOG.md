@@ -1,5 +1,12 @@
 # Changelog
 
+### [3.2.11](https://www.github.com/netlify/eslint-config-node/compare/v3.2.10...v3.2.11) (2021-09-29)
+
+
+### Bug Fixes
+
+* add ES modules linting ([#309](https://www.github.com/netlify/eslint-config-node/issues/309)) ([c61acbc](https://www.github.com/netlify/eslint-config-node/commit/c61acbc98521bdf93d67a1beebf5e76564a32464))
+
 ### [3.2.10](https://www.github.com/netlify/eslint-config-node/compare/v3.2.9...v3.2.10) (2021-09-21)
 
 
