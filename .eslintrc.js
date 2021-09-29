@@ -299,6 +299,16 @@ module.exports = {
         'import/no-extraneous-dependencies': 0,
       },
     },
+    {
+      // ES modules
+      files: ['*.mjs'],
+      parserOptions: {
+        sourceType: 'module',
+      },
+      rules: {
+        'import/extensions': [2, 'always'],
+      },
+    },
   ],
   settings: {
     react: {
