@@ -149,9 +149,9 @@ module.exports = {
     'import/newline-after-import': 2,
     'import/no-amd': 2,
     'import/no-anonymous-default-export': 2,
-    'import/no-cycle': [2, { commonjs: true }],
+    'import/no-cycle': 2,
     'import/no-deprecated': 2,
-    'import/no-dynamic-require': 2,
+    'import/no-dynamic-require': [2, { esmodule: true }],
     'import/no-extraneous-dependencies': 2,
     'import/no-mutable-exports': 2,
     'import/no-named-default': 2,
@@ -228,6 +228,7 @@ module.exports = {
     'unicorn/no-array-reduce': 0,
     'unicorn/no-array-for-each': 0,
     'unicorn/prefer-module': 0,
+    'unicorn/prefer-object-from-entries': 0,
     // Conflicts with no-unresolved and no-missing-import
     'unicorn/prefer-node-protocol': 0,
     // This rule gives too many false positives

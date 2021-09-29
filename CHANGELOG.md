@@ -1,5 +1,143 @@
 # Changelog
 
+### [3.2.10](https://www.github.com/netlify/eslint-config-node/compare/v3.2.9...v3.2.10) (2021-09-21)
+
+
+### Bug Fixes
+
+* **deps:** update dependency eslint-plugin-react to v7.26.0 ([#303](https://www.github.com/netlify/eslint-config-node/issues/303)) ([6b84476](https://www.github.com/netlify/eslint-config-node/commit/6b84476fa5612c6407205231999936c116a5666e))
+
+### [3.2.9](https://www.github.com/netlify/eslint-config-node/compare/v3.2.8...v3.2.9) (2021-09-20)
+
+
+### Bug Fixes
+
+* **deps:** update dependency eslint-plugin-ava to v13 ([#304](https://www.github.com/netlify/eslint-config-node/issues/304)) ([a532797](https://www.github.com/netlify/eslint-config-node/commit/a532797edcd02f8e7ea088281e3d5bbbd381bb99))
+
+### [3.2.8](https://www.github.com/netlify/eslint-config-node/compare/v3.2.7...v3.2.8) (2021-09-16)
+
+
+### Bug Fixes
+
+* **deps:** update dependency prettier to v2.4.1 ([#297](https://www.github.com/netlify/eslint-config-node/issues/297)) ([d756b06](https://www.github.com/netlify/eslint-config-node/commit/d756b0652dd05f8310554cbf8997a53462c3e9e0))
+
+### [3.2.7](https://www.github.com/netlify/eslint-config-node/compare/v3.2.6...v3.2.7) (2021-09-13)
+
+
+### Bug Fixes
+
+* **deps:** update dependency eslint-plugin-unicorn to v36 ([#298](https://www.github.com/netlify/eslint-config-node/issues/298)) ([ee5d3e5](https://www.github.com/netlify/eslint-config-node/commit/ee5d3e54c7c31f62ed741bcdb885a31c8493cf13))
+
+### [3.2.6](https://www.github.com/netlify/eslint-config-node/compare/v3.2.5...v3.2.6) (2021-09-01)
+
+
+### Bug Fixes
+
+* `import/no-cycle` rule makes linting fail in CI ([#292](https://www.github.com/netlify/eslint-config-node/issues/292)) ([4700216](https://www.github.com/netlify/eslint-config-node/commit/47002160891f7893851abc8111e4bf74b0c425c9))
+
+### [3.2.5](https://www.github.com/netlify/eslint-config-node/compare/v3.2.4...v3.2.5) (2021-08-30)
+
+
+### Bug Fixes
+
+* **deps:** update dependency eslint-plugin-react to v7.25.1 ([#289](https://www.github.com/netlify/eslint-config-node/issues/289)) ([b07ed09](https://www.github.com/netlify/eslint-config-node/commit/b07ed09fe3ae06fe01e8cd85a77a62bbb83eb96d))
+
+### [3.2.4](https://www.github.com/netlify/eslint-config-node/compare/v3.2.3...v3.2.4) (2021-08-25)
+
+
+### Bug Fixes
+
+* **deps:** update dependency eslint-plugin-import to v2.24.2 ([#287](https://www.github.com/netlify/eslint-config-node/issues/287)) ([34bd226](https://www.github.com/netlify/eslint-config-node/commit/34bd226e36915324e435e6dd79ac17fb20ef4e01))
+
+### [3.2.3](https://www.github.com/netlify/eslint-config-node/compare/v3.2.2...v3.2.3) (2021-08-23)
+
+
+### Bug Fixes
+
+* **deps:** update dependency eslint-plugin-import to v2.24.1 ([f34f9ea](https://www.github.com/netlify/eslint-config-node/commit/f34f9ea681c78a49a9d7858fbfcb381405329dd0))
+
+### [3.2.2](https://www.github.com/netlify/eslint-config-node/compare/v3.2.1...v3.2.2) (2021-08-16)
+
+
+### Bug Fixes
+
+* **deps:** update dependency eslint-import-resolver-node to v0.3.6 ([983f5dd](https://www.github.com/netlify/eslint-config-node/commit/983f5dddf95e1b924acddb1cea8d74cc8af94544))
+
+### [3.2.1](https://www.github.com/netlify/eslint-config-node/compare/v3.2.0...v3.2.1) (2021-08-09)
+
+
+### Bug Fixes
+
+* disable `unicorn/prefer-object-from-entries` ([#275](https://www.github.com/netlify/eslint-config-node/issues/275)) ([3acbfd4](https://www.github.com/netlify/eslint-config-node/commit/3acbfd43a01affbc8fed39ea7ece45a65db0d5a3))
+
+## [3.2.0](https://www.github.com/netlify/eslint-config-node/compare/v3.1.11...v3.2.0) (2021-08-09)
+
+
+### Features
+
+* use new options from latest version of `eslint-plugin-import` ([#273](https://www.github.com/netlify/eslint-config-node/issues/273)) ([979ab61](https://www.github.com/netlify/eslint-config-node/commit/979ab61f1b6075686a8b12d97300aa443d59d243))
+
+### [3.1.11](https://www.github.com/netlify/eslint-config-node/compare/v3.1.10...v3.1.11) (2021-08-09)
+
+
+### Bug Fixes
+
+* **deps:** update dependency eslint-import-resolver-node to v0.3.5 ([f5df83c](https://www.github.com/netlify/eslint-config-node/commit/f5df83c0fa7e3479ab9a54ee54284c9fd59ede7a))
+* **deps:** update dependency eslint-plugin-import to v2.24.0 ([cd3924c](https://www.github.com/netlify/eslint-config-node/commit/cd3924c21d3801be868222598d6f7618a760725c))
+* **deps:** update dependency eslint-plugin-unicorn to v35 ([#269](https://www.github.com/netlify/eslint-config-node/issues/269)) ([157984c](https://www.github.com/netlify/eslint-config-node/commit/157984c6958b3b85c0ccf530e118989b98c0be04))
+
+### [3.1.10](https://www.github.com/netlify/eslint-config-node/compare/v3.1.9...v3.1.10) (2021-08-02)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @babel/eslint-parser to v7.14.9 ([619c64b](https://www.github.com/netlify/eslint-config-node/commit/619c64b5b41fa3e314cbf74b7b7ff93f2790d14a))
+* **deps:** update dependency eslint to v7.32.0 ([f3dfc82](https://www.github.com/netlify/eslint-config-node/commit/f3dfc8262956445de6b402f4fd23946198d4ec8f))
+
+### [3.1.9](https://www.github.com/netlify/eslint-config-node/compare/v3.1.8...v3.1.9) (2021-07-26)
+
+
+### Bug Fixes
+
+* **deps:** update commitlint monorepo to v13 ([#257](https://www.github.com/netlify/eslint-config-node/issues/257)) ([481713c](https://www.github.com/netlify/eslint-config-node/commit/481713ccbd5e2e2d700c2fe811ecd59737c49092))
+* **deps:** update dependency @babel/core to v7.14.8 ([544c11d](https://www.github.com/netlify/eslint-config-node/commit/544c11d16094880cb5711097ec9bf4474cb4a9d2))
+
+### [3.1.8](https://www.github.com/netlify/eslint-config-node/compare/v3.1.7...v3.1.8) (2021-07-19)
+
+
+### Bug Fixes
+
+* **deps:** update dependency eslint to v7.31.0 ([37895ec](https://www.github.com/netlify/eslint-config-node/commit/37895ecdc120283fd1a6c17c897954bee9ffe439))
+
+### [3.1.7](https://www.github.com/netlify/eslint-config-node/compare/v3.1.6...v3.1.7) (2021-07-05)
+
+
+### Bug Fixes
+
+* **deps:** update dependency eslint to v7.30.0 ([5d3b2be](https://www.github.com/netlify/eslint-config-node/commit/5d3b2be2615673a286b77ff48813857ff327815e))
+* **deps:** update dependency eslint-plugin-unicorn to v34 ([#246](https://www.github.com/netlify/eslint-config-node/issues/246)) ([95c0a29](https://www.github.com/netlify/eslint-config-node/commit/95c0a299a7063a11a97b1af70019739f44f86ae3))
+
+### [3.1.6](https://www.github.com/netlify/eslint-config-node/compare/v3.1.5...v3.1.6) (2021-06-28)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @babel/eslint-parser to v7.14.7 ([5376afa](https://www.github.com/netlify/eslint-config-node/commit/5376afac3dc8e9b1ff90db4d66a233fc828ba244))
+
+### [3.1.5](https://www.github.com/netlify/eslint-config-node/compare/v3.1.4...v3.1.5) (2021-06-22)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @babel/core to v7.14.6 ([fbf6ff6](https://www.github.com/netlify/eslint-config-node/commit/fbf6ff6d01466e498317d535f96567fb3819a097))
+
+### [3.1.4](https://www.github.com/netlify/eslint-config-node/compare/v3.1.3...v3.1.4) (2021-06-14)
+
+
+### Bug Fixes
+
+* **deps:** update babel monorepo to v7.14.5 ([de0cb89](https://www.github.com/netlify/eslint-config-node/commit/de0cb89008e9f2e70ea0963278d3f8d7841b223d))
+
 ### [3.1.3](https://www.github.com/netlify/eslint-config-node/compare/v3.1.2...v3.1.3) (2021-06-07)
 
 
