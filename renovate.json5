@@ -3,6 +3,5 @@
   ignorePresets: [':prHourlyLimit2'],
   semanticCommits: true,
   dependencyDashboard: true,
-  automerge: false,
   rebaseWhen: 'conflicted',
 }
