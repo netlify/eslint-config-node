@@ -305,7 +305,6 @@ module.exports = {
         'import/no-extraneous-dependencies': 0,
       },
     },
-
     // TypeScript-specific settings.
     {
       files: ['*.ts'],
@@ -314,6 +313,16 @@ module.exports = {
         'plugin:@typescript-eslint/recommended',
         'plugin:import/typescript',
       ],
+    },
+    {
+      // ES modules
+      files: ['*.mjs'],
+      parserOptions: {
+        sourceType: 'module',
+      },
+      rules: {
+        'import/extensions': [2, 'always'],
+      },
     },
   ],
   settings: {
