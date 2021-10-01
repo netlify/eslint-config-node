@@ -307,7 +307,7 @@ module.exports = {
     },
     // TypeScript-specific settings.
     {
-      files: ['*.ts'],
+      files: ['*.ts', '*.tsx'],
       extends: [
         'plugin:@typescript-eslint/eslint-recommended',
         'plugin:@typescript-eslint/recommended',
