@@ -1,5 +1,19 @@
 # Changelog
 
+## [3.3.0](https://www.github.com/netlify/eslint-config-node/compare/v3.2.11...v3.3.0) (2021-10-04)
+
+
+### Features
+
+* add TypeScript rules ([#230](https://www.github.com/netlify/eslint-config-node/issues/230)) ([f995360](https://www.github.com/netlify/eslint-config-node/commit/f995360b1f62cfffdfb640f2873812f665688432))
+
+
+### Bug Fixes
+
+* **deps:** update commitlint monorepo to v13.2.0 ([#314](https://www.github.com/netlify/eslint-config-node/issues/314)) ([0d27568](https://www.github.com/netlify/eslint-config-node/commit/0d2756804c75fa3e6a71b7a3e47a58819b350733))
+* **deps:** update dependency eslint-plugin-react to v7.26.1 ([#313](https://www.github.com/netlify/eslint-config-node/issues/313)) ([38560e7](https://www.github.com/netlify/eslint-config-node/commit/38560e77c9d9e6ededf216a87dbd02fd1a82d0ef))
+* **deps:** update typescript-eslint monorepo to v4.32.0 ([#315](https://www.github.com/netlify/eslint-config-node/issues/315)) ([5edc92a](https://www.github.com/netlify/eslint-config-node/commit/5edc92abddfafbc7de32ea9b4733fba3f4c802ff))
+
 ### [3.2.11](https://www.github.com/netlify/eslint-config-node/compare/v3.2.10...v3.2.11) (2021-09-29)
 
 
