@@ -1,5 +1,12 @@
 # Changelog
 
+### [3.3.2](https://www.github.com/netlify/eslint-config-node/compare/v3.3.1...v3.3.2) (2021-10-12)
+
+
+### Bug Fixes
+
+* **deps:** update typescript-eslint monorepo to v5 ([#327](https://www.github.com/netlify/eslint-config-node/issues/327)) ([6d725dc](https://www.github.com/netlify/eslint-config-node/commit/6d725dcb5aea0b7625ba874787778086dc2d46c1))
+
 ### [3.3.1](https://www.github.com/netlify/eslint-config-node/compare/v3.3.0...v3.3.1) (2021-10-12)
 
 
