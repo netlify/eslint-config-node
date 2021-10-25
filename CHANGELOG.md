@@ -1,5 +1,15 @@
 # Changelog
 
+### [3.3.4](https://www.github.com/netlify/eslint-config-node/compare/v3.3.3...v3.3.4) (2021-10-25)
+
+
+### Bug Fixes
+
+* **deps:** update dependency eslint-plugin-ava to v13.1.0 ([#333](https://www.github.com/netlify/eslint-config-node/issues/333)) ([d34555a](https://www.github.com/netlify/eslint-config-node/commit/d34555a60179ad14609bec221fea5e370232ce96))
+* **deps:** update dependency eslint-plugin-import to v2.25.2 ([#330](https://www.github.com/netlify/eslint-config-node/issues/330)) ([358157b](https://www.github.com/netlify/eslint-config-node/commit/358157b0ecfafc3c3bbc0fdf84f24bd5ec936edc))
+* **deps:** update dependency eslint-plugin-promise to v5.1.1 ([#332](https://www.github.com/netlify/eslint-config-node/issues/332)) ([6b2c835](https://www.github.com/netlify/eslint-config-node/commit/6b2c8352b4eeaa2d8e6e941a319b9c1501be86b3))
+* **deps:** update typescript-eslint monorepo to v5.1.0 ([#334](https://www.github.com/netlify/eslint-config-node/issues/334)) ([f9d6431](https://www.github.com/netlify/eslint-config-node/commit/f9d64313760d29f2026c646b00b6a1b833ac94af))
+
 ### [3.3.3](https://www.github.com/netlify/eslint-config-node/compare/v3.3.2...v3.3.3) (2021-10-12)
 
 
