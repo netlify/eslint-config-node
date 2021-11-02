@@ -1,5 +1,14 @@
 # Changelog
 
+### [3.3.5](https://www.github.com/netlify/eslint-config-node/compare/v3.3.4...v3.3.5) (2021-11-01)
+
+
+### Bug Fixes
+
+* **deps:** update babel monorepo to v7.16.0 ([8bb0c75](https://www.github.com/netlify/eslint-config-node/commit/8bb0c75e3bb3a8a5c5605334cd77f17c27382d0b))
+* **deps:** update dependency is-ci to v3.0.1 ([8a51beb](https://www.github.com/netlify/eslint-config-node/commit/8a51bebc43144b3e9133ff8cdb31171079ce3197))
+* **deps:** update typescript-eslint monorepo to v5.2.0 ([2ed0bd6](https://www.github.com/netlify/eslint-config-node/commit/2ed0bd66805809379a16ca2500a38068af9d8565))
+
 ### [3.3.4](https://www.github.com/netlify/eslint-config-node/compare/v3.3.3...v3.3.4) (2021-10-25)
 
 
