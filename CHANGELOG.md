@@ -1,5 +1,15 @@
 # Changelog
 
+### [3.3.7](https://www.github.com/netlify/eslint-config-node/compare/v3.3.6...v3.3.7) (2021-11-15)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @babel/eslint-parser to v7.16.3 ([#350](https://www.github.com/netlify/eslint-config-node/issues/350)) ([98ca26b](https://www.github.com/netlify/eslint-config-node/commit/98ca26b66b633afbe440a6c0f6fde2b23228d96b))
+* **deps:** update dependency eslint-plugin-import to v2.25.3 ([#351](https://www.github.com/netlify/eslint-config-node/issues/351)) ([3ec0905](https://www.github.com/netlify/eslint-config-node/commit/3ec0905976ca1a2b91bfe9d456640f752430981b))
+* **deps:** update dependency eslint-plugin-react to v7.27.0 ([#353](https://www.github.com/netlify/eslint-config-node/issues/353)) ([db408fa](https://www.github.com/netlify/eslint-config-node/commit/db408fab3341442dda64359e3a9d1ab797e6206d))
+* **deps:** update typescript-eslint monorepo to v5.3.1 ([#352](https://www.github.com/netlify/eslint-config-node/issues/352)) ([602db92](https://www.github.com/netlify/eslint-config-node/commit/602db92a49c874a0aa8139714439ada45d151ee0))
+
 ### [3.3.6](https://www.github.com/netlify/eslint-config-node/compare/v3.3.5...v3.3.6) (2021-11-08)
 
 
