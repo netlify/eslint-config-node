@@ -92,7 +92,7 @@
     "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-promise": "^5.0.0",
     "eslint-plugin-react": "^7.21.5",
-    "eslint-plugin-unicorn": "^38.0.0",
+    "eslint-plugin-unicorn": "^39.0.0",
     "eslint-plugin-you-dont-need-lodash-underscore": "^6.10.0",
     "execa": "^5.0.0",
     "husky": "^4.3.0",
