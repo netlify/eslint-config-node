@@ -1,5 +1,15 @@
 # Changelog
 
+### [3.3.8](https://www.github.com/netlify/eslint-config-node/compare/v3.3.7...v3.3.8) (2021-11-22)
+
+
+### Bug Fixes
+
+* **deps:** update commitlint monorepo to v15 (major) ([#357](https://www.github.com/netlify/eslint-config-node/issues/357)) ([20be7e1](https://www.github.com/netlify/eslint-config-node/commit/20be7e1d4c9192d98b7144eab6cd89535f3af92b))
+* **deps:** update dependency eslint-plugin-react to v7.27.1 ([#355](https://www.github.com/netlify/eslint-config-node/issues/355)) ([03eae3d](https://www.github.com/netlify/eslint-config-node/commit/03eae3db2fb440973db268b4562463e5067e2745))
+* **deps:** update dependency eslint-plugin-unicorn to v39 ([#358](https://www.github.com/netlify/eslint-config-node/issues/358)) ([68c8c53](https://www.github.com/netlify/eslint-config-node/commit/68c8c53be02bbce3182d35445af83e1ebc39e3b6))
+* **deps:** update typescript-eslint monorepo to v5.4.0 ([#356](https://www.github.com/netlify/eslint-config-node/issues/356)) ([ab58c79](https://www.github.com/netlify/eslint-config-node/commit/ab58c796728c199f4b6e04b4a897cb95f8d2384a))
+
 ### [3.3.7](https://www.github.com/netlify/eslint-config-node/compare/v3.3.6...v3.3.7) (2021-11-15)
 
 
