@@ -1,5 +1,13 @@
 # Changelog
 
+### [3.3.9](https://www.github.com/netlify/eslint-config-node/compare/v3.3.8...v3.3.9) (2021-11-29)
+
+
+### Bug Fixes
+
+* add `node/no-missing-import` exception for README.md ([#362](https://www.github.com/netlify/eslint-config-node/issues/362)) ([dbf806c](https://www.github.com/netlify/eslint-config-node/commit/dbf806ce58218522b62c17504187089864d98816))
+* **deps:** update dependency prettier to v2.5.0 ([#363](https://www.github.com/netlify/eslint-config-node/issues/363)) ([f20d022](https://www.github.com/netlify/eslint-config-node/commit/f20d02279033ba6513bd2d9c57f87387ff6c2dbc))
+
 ### [3.3.8](https://www.github.com/netlify/eslint-config-node/compare/v3.3.7...v3.3.8) (2021-11-22)
 
 
