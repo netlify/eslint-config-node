@@ -1,5 +1,12 @@
 # Changelog
 
+### [3.3.10](https://www.github.com/netlify/eslint-config-node/compare/v3.3.9...v3.3.10) (2021-11-30)
+
+
+### Bug Fixes
+
+* enable new rules since dropping Node 10/11 support ([#361](https://www.github.com/netlify/eslint-config-node/issues/361)) ([bfe54c0](https://www.github.com/netlify/eslint-config-node/commit/bfe54c06ebc88d69aea4395af00831221b6c4414))
+
 ### [3.3.9](https://www.github.com/netlify/eslint-config-node/compare/v3.3.8...v3.3.9) (2021-11-29)
 
 
