@@ -178,10 +178,12 @@ module.exports = {
     'node/no-mixed-requires': 2,
     // Using path.join() is often not needed when using only core Node.js APIs
     'node/no-path-concat': 0,
+    // TODO: remove once bug in eslint-plugin-node is fixed:
+    // https://github.com/mysticatea/eslint-plugin-node/issues/250
     'node/no-unsupported-features/es-syntax': [
       'error',
       {
-        ignores: ['modules'],
+        ignores: ['modules', 'dynamicImport'],
       },
     ],
     // Browser globals should not use `require()`. Non-browser globals should
