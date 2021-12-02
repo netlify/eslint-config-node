@@ -1,5 +1,12 @@
 # Changelog
 
+### [3.3.11](https://www.github.com/netlify/eslint-config-node/compare/v3.3.10...v3.3.11) (2021-12-02)
+
+
+### Bug Fixes
+
+* linting for dynamic imports ([#366](https://www.github.com/netlify/eslint-config-node/issues/366)) ([3f4a131](https://www.github.com/netlify/eslint-config-node/commit/3f4a1312ce1b8baecb2075769965125ca63936f4))
+
 ### [3.3.10](https://www.github.com/netlify/eslint-config-node/compare/v3.3.9...v3.3.10) (2021-11-30)
 
 
