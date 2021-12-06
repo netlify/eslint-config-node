@@ -314,6 +314,29 @@ module.exports = {
         'plugin:import/typescript',
       ],
     },
+    // React
+    {
+      files: ['*.jsx', '*.tsx'],
+      parserOptions: {
+        sourceType: 'module',
+        ecmaFeatures: { jsx: true },
+      },
+      env: {
+        browser: true,
+      },
+      rules: {
+        'node/no-unsupported-features/es-syntax': 0,
+        'unicorn/filename-case': 0,
+        'unicorn/import-index': 0,
+      },
+    },
+    // HTML files
+    {
+      files: ['*.html'],
+      env: {
+        browser: true,
+      },
+    },
     {
       // ES modules
       files: ['*.mjs'],
