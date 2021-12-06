@@ -1,5 +1,14 @@
 # Changelog
 
+### [3.3.12](https://www.github.com/netlify/eslint-config-node/compare/v3.3.11...v3.3.12) (2021-12-06)
+
+
+### Bug Fixes
+
+* **deps:** update dependency eslint-plugin-promise to v5.2.0 ([#371](https://www.github.com/netlify/eslint-config-node/issues/371)) ([179cb1d](https://www.github.com/netlify/eslint-config-node/commit/179cb1d501ebeb4a69e93ff9d35676974d013ede))
+* **deps:** update dependency prettier to v2.5.1 ([#370](https://www.github.com/netlify/eslint-config-node/issues/370)) ([78cf772](https://www.github.com/netlify/eslint-config-node/commit/78cf772c8bc3fd0e533058a73d1b7fab702f2168))
+* **deps:** update typescript-eslint monorepo to v5.5.0 ([#372](https://www.github.com/netlify/eslint-config-node/issues/372)) ([80e1fea](https://www.github.com/netlify/eslint-config-node/commit/80e1fea0a77be810d271f4cbcb44721e4166d004))
+
 ### [3.3.11](https://www.github.com/netlify/eslint-config-node/compare/v3.3.10...v3.3.11) (2021-12-02)
 
 
