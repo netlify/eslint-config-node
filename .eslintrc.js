@@ -324,6 +324,17 @@ module.exports = {
         'import/extensions': [2, 'always'],
       },
     },
+    // Cypress test files
+    {
+      files: ['cypress/**/*.js'],
+      parserOptions: {
+        sourceType: 'module',
+      },
+      env: {
+        'cypress/globals': true,
+      },
+      plugins: ['cypress'],
+    },
   ],
   settings: {
     'import/parsers': {
