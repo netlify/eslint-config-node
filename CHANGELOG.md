@@ -1,5 +1,12 @@
 # Changelog
 
+### [4.0.1](https://www.github.com/netlify/eslint-config-node/compare/v4.0.0...v4.0.1) (2021-12-16)
+
+
+### Bug Fixes
+
+* linting `*.mjs`, `*.cjs`, `*.mts` and `*.cts` ([#376](https://www.github.com/netlify/eslint-config-node/issues/376)) ([1c8845e](https://www.github.com/netlify/eslint-config-node/commit/1c8845e046792717316d5a235e9934790116a3ca))
+
 ## [4.0.0](https://www.github.com/netlify/eslint-config-node/compare/v3.3.11...v4.0.0) (2021-12-06)
 
 
