@@ -252,7 +252,7 @@ module.exports = {
   },
   overrides: [
     {
-      files: ['**/tests.js', '**/tests/**/*.js'],
+      files: ['**/tests.{cjs,mjs,js}', '**/tests/**/*.{cjs,mjs,js}'],
       rules: {
         'max-lines': 0,
         'node/no-unpublished-require': 0,
@@ -264,7 +264,7 @@ module.exports = {
       },
     },
     {
-      files: ['.*.js'],
+      files: ['.*.{cjs,mjs,js}'],
       rules: {
         'max-lines': 0,
         'no-magic-numbers': 0,
@@ -272,7 +272,7 @@ module.exports = {
       },
     },
     {
-      files: ['scripts/**/*.js'],
+      files: ['scripts/**/*.{cjs,mjs,js}'],
       rules: {
         'node/no-unpublished-require': 0,
       },
@@ -307,7 +307,7 @@ module.exports = {
     },
     // TypeScript-specific settings.
     {
-      files: ['*.ts', '*.tsx'],
+      files: ['*.cts', '*mts', '*.ts', '*.tsx'],
       extends: [
         'plugin:@typescript-eslint/eslint-recommended',
         'plugin:@typescript-eslint/recommended',
@@ -349,7 +349,7 @@ module.exports = {
     },
     // Cypress test files
     {
-      files: ['cypress/**/*.js'],
+      files: ['cypress/**/*.{cjs,mjs,js}'],
       parserOptions: {
         sourceType: 'module',
       },
@@ -361,18 +361,18 @@ module.exports = {
   ],
   settings: {
     'import/parsers': {
-      '@typescript-eslint/parser': ['.ts', '.tsx'],
+      '@typescript-eslint/parser': ['*.cts', '*mts', '.ts', '.tsx'],
     },
     'import/resolver': {
       node: {
-        extensions: ['.js', '.jsx', '.d.ts', '.ts', '.tsx'],
+        extensions: ['.cjs', '.mjs', '.js', '.jsx', '.d.ts', '*.cts', '*mts', '.ts', '.tsx'],
       },
       typescript: {
         alwaysTryTypes: true,
       },
     },
     node: {
-      tryExtensions: ['.js', '.ts', '.d.ts'],
+      tryExtensions: ['.cjs', '.mjs', '.js', '*.cts', '*mts', '.ts', '.d.ts'],
     },
     react: {
       version: '16.13.1',
