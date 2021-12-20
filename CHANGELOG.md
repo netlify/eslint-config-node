@@ -1,5 +1,14 @@
 # Changelog
 
+### [4.0.2](https://www.github.com/netlify/eslint-config-node/compare/v4.0.1...v4.0.2) (2021-12-20)
+
+
+### Bug Fixes
+
+* **deps:** update babel monorepo to v7.16.5 ([#378](https://www.github.com/netlify/eslint-config-node/issues/378)) ([a49b0db](https://www.github.com/netlify/eslint-config-node/commit/a49b0db097a830b7c6e003b1c90d3132e15833cf))
+* **deps:** update dependency eslint-plugin-promise to v6 ([#380](https://www.github.com/netlify/eslint-config-node/issues/380)) ([16257df](https://www.github.com/netlify/eslint-config-node/commit/16257dfc04e490fe7d6b6256e0dd97a103fc9885))
+* **deps:** update typescript-eslint monorepo to v5.7.0 ([#379](https://www.github.com/netlify/eslint-config-node/issues/379)) ([7bd94de](https://www.github.com/netlify/eslint-config-node/commit/7bd94decdb0acc6aaccd121026ea798bf8b8ed45))
+
 ### [4.0.1](https://www.github.com/netlify/eslint-config-node/compare/v4.0.0...v4.0.1) (2021-12-16)
 
 
