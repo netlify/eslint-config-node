@@ -1,5 +1,12 @@
 # Changelog
 
+### [4.0.4](https://www.github.com/netlify/eslint-config-node/compare/v4.0.3...v4.0.4) (2021-12-27)
+
+
+### Bug Fixes
+
+* **deps:** update commitlint monorepo to v16 ([#384](https://www.github.com/netlify/eslint-config-node/issues/384)) ([3f31939](https://www.github.com/netlify/eslint-config-node/commit/3f31939f794acdfc954dcc45cf33ae9b16df4137))
+
 ### [4.0.3](https://www.github.com/netlify/eslint-config-node/compare/v4.0.2...v4.0.3) (2021-12-27)
 
 
