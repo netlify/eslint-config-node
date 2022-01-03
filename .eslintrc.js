@@ -139,7 +139,7 @@ module.exports = {
 
     // Those rules are too strict
     'no-await-in-loop': 0,
-    
+
     'fp/no-rest-parameters': 0,
     'fp/no-unused-expression': 0,
     'fp/no-nil': 0,
