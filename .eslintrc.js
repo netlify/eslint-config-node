@@ -47,7 +47,6 @@ module.exports = {
     'max-statements': [2, 15],
     'max-statements-per-line': [2, { max: 2 }],
     'multiline-comment-style': [2, 'separate-lines'],
-    'no-await-in-loop': 2,
     'no-bitwise': 2,
     'no-constructor-return': 2,
     'no-duplicate-imports': 2,
@@ -139,6 +138,8 @@ module.exports = {
     ],
 
     // Those rules are too strict
+    'no-await-in-loop': 0,
+
     'fp/no-rest-parameters': 0,
     'fp/no-unused-expression': 0,
     'fp/no-nil': 0,
