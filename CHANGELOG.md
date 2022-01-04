@@ -1,5 +1,12 @@
 # Changelog
 
+### [4.0.6](https://github.com/netlify/eslint-config-node/compare/v4.0.5...v4.0.6) (2022-01-03)
+
+
+### Bug Fixes
+
+* disable no-await-in-loop ([#395](https://github.com/netlify/eslint-config-node/issues/395)) ([0b9052f](https://github.com/netlify/eslint-config-node/commit/0b9052fdaf32554911d8548863e046276eb6d17f))
+
 ### [4.0.5](https://github.com/netlify/eslint-config-node/compare/v4.0.4...v4.0.5) (2022-01-03)
 
 
