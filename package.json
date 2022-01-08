@@ -27,7 +27,7 @@
     "test:dev": "run-s test:dev:*",
     "test:ci": "run-s test:ci:*",
     "test:dev:ava": "ava",
-    "test:ci:ava": "nyc -r lcovonly -r text -r json ava",
+    "test:ci:ava": "c8 -r lcovonly -r text -r json ava",
     "prepublishOnly": "npm ci && npm test"
   },
   "config": {
@@ -102,7 +102,7 @@
   },
   "devDependencies": {
     "ava": "^3.13.0",
-    "nyc": "^15.1.0"
+    "c8": "^7.11.0"
   },
   "engines": {
     "node": ">=16.0.0"
