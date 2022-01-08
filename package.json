@@ -4,12 +4,10 @@
   "main": ".eslintrc.js",
   "files": [
     ".eslintrc.js",
-    "react_config.js",
-    "vanilla_js_config.js",
     ".prettierrc.json",
     ".editorconfig",
     ".gitattributes",
-    "bin"
+    "bin/*.js"
   ],
   "bin": {
     "run-e": "./bin/run_e.js",
