@@ -7,13 +7,13 @@ Linting and formatting configuration shared by Netlify Node.js repositories:
 - [Prettier](https://prettier.io/)
 - [Editorconfig](https://editorconfig.org/)
 - `.gitattributes`
+- `.husky/`
 
 ## How to add to a new Node.js repository
 
 If you're creating a new repository, you can use the
 [following GitHub template](https://github.com/netlify/node-template). Otherwise, please follow those steps:
 
-- `npm install -D @netlify/eslint-config-node husky@4`
 - Add a `.eslintrc.js` file to the root of the project. Based on the type of the project update the content of the file:
 
 ### Node.js project
@@ -87,12 +87,6 @@ module.exports = { extends: ['@commitlint/config-conventional'] }
   "config": {
     "eslint": "--ignore-path .gitignore --cache --format=codeframe --max-warnings=0 \"{src,scripts,tests,.github}/**/*.{js,md,html}\" \"*.{js,md,html}\" \".*.{js,md,html}\"",
     "prettier": "--ignore-path .gitignore --loglevel=warn \"{src,scripts,tests,.github}/**/*.{js,md,yml,json,html}\" \"*.{js,yml,json,html}\" \".*.{js,yml,json,html}\" \"!package-lock.json\""
-  },
-  "husky": {
-    "hooks": {
-      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS",
-      "pre-push": "npm run format"
-    }
   }
 }
 ```
