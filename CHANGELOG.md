@@ -1,5 +1,38 @@
 # Changelog
 
+### [4.0.8](https://github.com/netlify/eslint-config-node/compare/v4.0.7...v4.0.8) (2022-01-10)
+
+
+### Bug Fixes
+
+* downgrade eslint-plugin-promise to v5.2.0 ([#401](https://github.com/netlify/eslint-config-node/issues/401)) ([1ea31bf](https://github.com/netlify/eslint-config-node/commit/1ea31bfc2b692a1ecd4e274d14a1cb03360b1823))
+
+### [4.0.7](https://github.com/netlify/eslint-config-node/compare/v4.0.6...v4.0.7) (2022-01-10)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @commitlint/cli to v16.0.2 ([#404](https://github.com/netlify/eslint-config-node/issues/404)) ([7ab7698](https://github.com/netlify/eslint-config-node/commit/7ab76989a0cfd525a8f948b40fef7cd81c62a29c))
+* **deps:** update dependency eslint-plugin-ava to v13.2.0 ([#405](https://github.com/netlify/eslint-config-node/issues/405)) ([bb0588e](https://github.com/netlify/eslint-config-node/commit/bb0588ed9b197c2e5e7f336a177095f76b21024c))
+* **deps:** update typescript-eslint monorepo to v5.9.0 ([#406](https://github.com/netlify/eslint-config-node/issues/406)) ([baa55b8](https://github.com/netlify/eslint-config-node/commit/baa55b8c606d1844c92ae100eff9e982bef24676))
+
+### [4.0.6](https://github.com/netlify/eslint-config-node/compare/v4.0.5...v4.0.6) (2022-01-03)
+
+
+### Bug Fixes
+
+* disable no-await-in-loop ([#395](https://github.com/netlify/eslint-config-node/issues/395)) ([0b9052f](https://github.com/netlify/eslint-config-node/commit/0b9052fdaf32554911d8548863e046276eb6d17f))
+
+### [4.0.5](https://github.com/netlify/eslint-config-node/compare/v4.0.4...v4.0.5) (2022-01-03)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @babel/core to v7.16.7 ([#387](https://github.com/netlify/eslint-config-node/issues/387)) ([254790c](https://github.com/netlify/eslint-config-node/commit/254790c4b06505bf14516a612b31fde451e4b2af))
+* **deps:** update dependency @commitlint/cli to v16.0.1 ([#388](https://github.com/netlify/eslint-config-node/issues/388)) ([56e0b8c](https://github.com/netlify/eslint-config-node/commit/56e0b8ceace70c31e0a3c470de4af94107279a45))
+* **deps:** update dependency eslint-plugin-import to v2.25.4 ([#389](https://github.com/netlify/eslint-config-node/issues/389)) ([ffe4e09](https://github.com/netlify/eslint-config-node/commit/ffe4e09a7fb25a4c54901b154fe7081a3b237c84))
+* **deps:** update typescript-eslint monorepo to v5.8.1 ([#390](https://github.com/netlify/eslint-config-node/issues/390)) ([39819e4](https://github.com/netlify/eslint-config-node/commit/39819e4297c798ac9ce78fbfa04f142fc82e17be))
+
 ### [4.0.4](https://www.github.com/netlify/eslint-config-node/compare/v4.0.3...v4.0.4) (2021-12-27)
 
 
