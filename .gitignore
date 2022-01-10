@@ -6,6 +6,5 @@ node_modules
 .eslintcache
 .npmrc
 .yarn-error.log
-!.github/
 /build
 .vscode
