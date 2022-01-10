@@ -220,9 +220,6 @@ module.exports = {
     // The `sortCharacterClasses` option is not very useful
     'unicorn/better-regex': [2, { sortCharacterClasses: false }],
 
-    // TODO: enable once https://github.com/sindresorhus/eslint-plugin-unicorn/issues/1343 is fixed
-    'unicorn/prefer-prototype-methods': 0,
-
     // Too strict
     'unicorn/no-null': 0,
     'unicorn/no-array-reduce': 0,
@@ -243,13 +240,6 @@ module.exports = {
     // TODO: enable those rules
     'unicorn/no-process-exit': 0,
     'unicorn/import-style': 0,
-    // TODO: enable after dropping Node 8 support
-    'unicorn/prefer-optional-catch-binding': 0,
-    'unicorn/prefer-string-trim-start-end': 0,
-    // TODO: enable after dropping Node <12 support
-    'unicorn/numeric-separators-style': 0,
-    'unicorn/prefer-array-flat': 0,
-    'unicorn/prefer-array-flat-map': 0,
   },
   overrides: [
     {
