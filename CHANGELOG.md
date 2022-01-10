@@ -1,5 +1,21 @@
 # Changelog
 
+### [4.0.8](https://github.com/netlify/eslint-config-node/compare/v4.0.7...v4.0.8) (2022-01-10)
+
+
+### Bug Fixes
+
+* downgrade eslint-plugin-promise to v5.2.0 ([#401](https://github.com/netlify/eslint-config-node/issues/401)) ([1ea31bf](https://github.com/netlify/eslint-config-node/commit/1ea31bfc2b692a1ecd4e274d14a1cb03360b1823))
+
+### [4.0.7](https://github.com/netlify/eslint-config-node/compare/v4.0.6...v4.0.7) (2022-01-10)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @commitlint/cli to v16.0.2 ([#404](https://github.com/netlify/eslint-config-node/issues/404)) ([7ab7698](https://github.com/netlify/eslint-config-node/commit/7ab76989a0cfd525a8f948b40fef7cd81c62a29c))
+* **deps:** update dependency eslint-plugin-ava to v13.2.0 ([#405](https://github.com/netlify/eslint-config-node/issues/405)) ([bb0588e](https://github.com/netlify/eslint-config-node/commit/bb0588ed9b197c2e5e7f336a177095f76b21024c))
+* **deps:** update typescript-eslint monorepo to v5.9.0 ([#406](https://github.com/netlify/eslint-config-node/issues/406)) ([baa55b8](https://github.com/netlify/eslint-config-node/commit/baa55b8c606d1844c92ae100eff9e982bef24676))
+
 ### [4.0.6](https://github.com/netlify/eslint-config-node/compare/v4.0.5...v4.0.6) (2022-01-03)
 
 
