@@ -1,5 +1,12 @@
 # Changelog
 
+### [4.0.8](https://github.com/netlify/eslint-config-node/compare/v4.0.7...v4.0.8) (2022-01-10)
+
+
+### Bug Fixes
+
+* downgrade eslint-plugin-promise to v5.2.0 ([#401](https://github.com/netlify/eslint-config-node/issues/401)) ([1ea31bf](https://github.com/netlify/eslint-config-node/commit/1ea31bfc2b692a1ecd4e274d14a1cb03360b1823))
+
 ### [4.0.7](https://github.com/netlify/eslint-config-node/compare/v4.0.6...v4.0.7) (2022-01-10)
 
 
