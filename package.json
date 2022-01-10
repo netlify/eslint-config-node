@@ -1,15 +1,13 @@
 {
   "name": "@netlify/eslint-config-node",
-  "version": "4.0.6",
+  "version": "4.0.7",
   "main": ".eslintrc.js",
   "files": [
     ".eslintrc.js",
-    "react_config.js",
-    "vanilla_js_config.js",
     ".prettierrc.json",
     ".editorconfig",
     ".gitattributes",
-    "bin"
+    "bin/*.js"
   ],
   "bin": {
     "run-e": "./bin/run_e.js",
