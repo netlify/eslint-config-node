@@ -1,5 +1,17 @@
 # Changelog
 
+## [4.1.0](https://github.com/netlify/eslint-config-node/compare/v4.0.8...v4.1.0) (2022-01-10)
+
+
+### Features
+
+* Enable a few more newer Node.js rules ([#397](https://github.com/netlify/eslint-config-node/issues/397)) ([3367a21](https://github.com/netlify/eslint-config-node/commit/3367a21a02e2fb59a79089a9de416b1476ea0522))
+
+
+### Bug Fixes
+
+* **deps:** update dependency eslint-plugin-unicorn to v40 ([#392](https://github.com/netlify/eslint-config-node/issues/392)) ([f81380d](https://github.com/netlify/eslint-config-node/commit/f81380d6b48c732b03ba448507edfc313e444eb2))
+
 ### [4.0.8](https://github.com/netlify/eslint-config-node/compare/v4.0.7...v4.0.8) (2022-01-10)
 
 
