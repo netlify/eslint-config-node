@@ -1,5 +1,12 @@
 # Changelog
 
+### [4.1.1](https://github.com/netlify/eslint-config-node/compare/v4.1.0...v4.1.1) (2022-01-12)
+
+
+### Bug Fixes
+
+* **deps:** update husky package to the latest ([#403](https://github.com/netlify/eslint-config-node/issues/403)) ([d056fa8](https://github.com/netlify/eslint-config-node/commit/d056fa8690e82cfe9c2f3d0946031fcf193f69fe))
+
 ## [4.1.0](https://github.com/netlify/eslint-config-node/compare/v4.0.8...v4.1.0) (2022-01-10)
 
 
