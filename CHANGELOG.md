@@ -1,5 +1,13 @@
 # Changelog
 
+### [4.1.2](https://github.com/netlify/eslint-config-node/compare/v4.1.1...v4.1.2) (2022-01-12)
+
+
+### Bug Fixes
+
+* `commitlint` Git hook ([#415](https://github.com/netlify/eslint-config-node/issues/415)) ([674068b](https://github.com/netlify/eslint-config-node/commit/674068b96d1981bdaa64d3b3030f56e63c43eea3))
+* make Git hooks executable ([#413](https://github.com/netlify/eslint-config-node/issues/413)) ([a2b2557](https://github.com/netlify/eslint-config-node/commit/a2b255742fbe8812f8a4e1ab40689cc01dedfb53))
+
 ### [4.1.1](https://github.com/netlify/eslint-config-node/compare/v4.1.0...v4.1.1) (2022-01-12)
 
 
