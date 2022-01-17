@@ -320,7 +320,7 @@ module.exports = {
     'unicorn/require-array-join-separator': 2,
     'unicorn/require-number-to-fixed-digits-argument': 2,
     // Turned off because we can't distinguish `window.postMessage` and `{Worker,MessagePort,Client,BroadcastChannel}#postMessage()`
-    // See #1396
+    // See https://github.com/sindresorhus/eslint-plugin-unicorn/issues/1396
     'unicorn/require-post-message-target-origin': 0,
     'unicorn/string-content': 0,
     'unicorn/template-indent': 1,
