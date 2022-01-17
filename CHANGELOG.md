@@ -1,5 +1,13 @@
 # Changelog
 
+### [4.1.4](https://github.com/netlify/eslint-config-node/compare/v4.1.3...v4.1.4) (2022-01-17)
+
+
+### Bug Fixes
+
+* **deps:** update dependency eslint-plugin-unicorn to v40.1.0 ([#420](https://github.com/netlify/eslint-config-node/issues/420)) ([9b9501b](https://github.com/netlify/eslint-config-node/commit/9b9501bd9f698f46a2851a27a6e4524f22de77b3))
+* **deps:** update typescript-eslint monorepo to v5.9.1 ([#419](https://github.com/netlify/eslint-config-node/issues/419)) ([3151761](https://github.com/netlify/eslint-config-node/commit/315176153f86d55e81559f9cc33c5d576a1cdd66))
+
 ### [4.1.3](https://github.com/netlify/eslint-config-node/compare/v4.1.2...v4.1.3) (2022-01-14)
 
 
