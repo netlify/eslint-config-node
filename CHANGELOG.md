@@ -1,5 +1,12 @@
 # Changelog
 
+### [4.1.5](https://github.com/netlify/eslint-config-node/compare/v4.1.4...v4.1.5) (2022-01-17)
+
+
+### Bug Fixes
+
+* inline `eslint-plugin-unicorn` recommended rules ([#423](https://github.com/netlify/eslint-config-node/issues/423)) ([71f44e9](https://github.com/netlify/eslint-config-node/commit/71f44e976e91f54ec7c9c7814c85038d61d943eb))
+
 ### [4.1.4](https://github.com/netlify/eslint-config-node/compare/v4.1.3...v4.1.4) (2022-01-17)
 
 
