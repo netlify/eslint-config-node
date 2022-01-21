@@ -1,5 +1,12 @@
 # Changelog
 
+### [4.1.6](https://github.com/netlify/eslint-config-node/compare/v4.1.5...v4.1.6) (2022-01-21)
+
+
+### Bug Fixes
+
+* remove broken duplicate rule ([#427](https://github.com/netlify/eslint-config-node/issues/427)) ([3fa84d5](https://github.com/netlify/eslint-config-node/commit/3fa84d5db9e62e17908d89a92dc0511996a47576))
+
 ### [4.1.5](https://github.com/netlify/eslint-config-node/compare/v4.1.4...v4.1.5) (2022-01-17)
 
 
