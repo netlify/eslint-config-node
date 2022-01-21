@@ -48,7 +48,6 @@ module.exports = {
     'multiline-comment-style': [2, 'separate-lines'],
     'no-bitwise': 2,
     'no-constructor-return': 2,
-    'no-duplicate-imports': 2,
     'no-else-return': [2, { allowElseIf: false }],
     'no-extra-label': 2,
     'no-implicit-coercion': 2,
