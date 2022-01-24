@@ -1,5 +1,14 @@
 # Changelog
 
+### [4.1.7](https://github.com/netlify/eslint-config-node/compare/v4.1.6...v4.1.7) (2022-01-24)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @babel/core to v7.16.12 ([#429](https://github.com/netlify/eslint-config-node/issues/429)) ([56153ce](https://github.com/netlify/eslint-config-node/commit/56153cec078d6e156df8744612a166216f4bca8f))
+* **deps:** update dependency @commitlint/cli to v16.1.0 ([#430](https://github.com/netlify/eslint-config-node/issues/430)) ([63a69fd](https://github.com/netlify/eslint-config-node/commit/63a69fd810327c0f57b5dfed760dd10ac91d83b9))
+* **deps:** update typescript-eslint monorepo to v5.10.0 ([#431](https://github.com/netlify/eslint-config-node/issues/431)) ([7c4b100](https://github.com/netlify/eslint-config-node/commit/7c4b10095a54a78bccd56f480a6b799db69a06bb))
+
 ### [4.1.6](https://github.com/netlify/eslint-config-node/compare/v4.1.5...v4.1.6) (2022-01-21)
 
 
