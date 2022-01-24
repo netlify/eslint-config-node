@@ -1,9 +1,9 @@
 #!/usr/bin/env node
-const process = require('process')
+import process, { argv } from 'process'
 
-const execa = require('execa')
+import execa from 'execa'
 
-const [, , npmScript, npmScriptOnError] = process.argv
+const [, , npmScript, npmScriptOnError] = argv
 
 // Run a npm script. If that script fails, another npm script is run.
 // We use this for example with ESLint and Prettier to be able to fail if
