@@ -14,9 +14,8 @@ Linting and formatting configuration shared by Netlify Node.js repositories:
 If you're creating a new repository, you can use the
 [following GitHub template](https://github.com/netlify/node-template). Otherwise, please follow those steps:
 
-- Add a `.eslintrc.js` file to the root of the project. Based on the type of the project update the content of the file:
-
-### Node.js project
+- Add a `.eslintrc.js` file to the root of the project. Individual `rules` and `overrides` can be tweaked for the
+  specific project.
 
 ```js
 const { overrides } = require('@netlify/eslint-config-node')
@@ -27,32 +26,6 @@ module.exports = {
   overrides: [...overrides],
 }
 ```
-
-### React application
-
-```js
-const { overrides } = require('@netlify/eslint-config-node/react_config')
-
-module.exports = {
-  extends: '@netlify/eslint-config-node/react_config',
-  rules: {},
-  overrides: [...overrides],
-}
-```
-
-### Vanilla JS in HTML files
-
-```js
-const { overrides } = require('@netlify/eslint-config-node/vanilla_js_config')
-
-module.exports = {
-  extends: '@netlify/eslint-config-node/vanilla_js_config',
-  rules: {},
-  overrides: [...overrides],
-}
-```
-
-> Individual `rules` and `overrides` can be tweaked for the specific project.
 
 - Add the following `.prettierrc.json` to the root of the project:
 
