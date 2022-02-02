@@ -1,5 +1,12 @@
 # Changelog
 
+### [5.1.1](https://github.com/netlify/eslint-config-node/compare/v5.1.0...v5.1.1) (2022-02-02)
+
+
+### Bug Fixes
+
+* missing file extension with ESM configuration ([#443](https://github.com/netlify/eslint-config-node/issues/443)) ([c245636](https://github.com/netlify/eslint-config-node/commit/c245636194842b79c7293e3d4768dcda899ef893))
+
 ## [5.1.0](https://github.com/netlify/eslint-config-node/compare/v5.0.1...v5.1.0) (2022-02-02)
 
 
