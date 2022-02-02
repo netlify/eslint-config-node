@@ -1,5 +1,12 @@
 # Changelog
 
+## [5.1.0](https://github.com/netlify/eslint-config-node/compare/v5.0.1...v5.1.0) (2022-02-02)
+
+
+### Features
+
+* add ESM-specific rules ([#441](https://github.com/netlify/eslint-config-node/issues/441)) ([239d4ec](https://github.com/netlify/eslint-config-node/commit/239d4ecb770f6aed97449e1e84a8627a0c3a2d36))
+
 ### [5.0.1](https://github.com/netlify/eslint-config-node/compare/v5.0.0...v5.0.1) (2022-02-02)
 
 
