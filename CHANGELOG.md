@@ -1,5 +1,12 @@
 # Changelog
 
+### [5.0.1](https://github.com/netlify/eslint-config-node/compare/v5.0.0...v5.0.1) (2022-02-02)
+
+
+### Bug Fixes
+
+* missing export for Prettier configuration ([#439](https://github.com/netlify/eslint-config-node/issues/439)) ([1b152a9](https://github.com/netlify/eslint-config-node/commit/1b152a9485c269a385dba6c65feef8102a7cdc3b))
+
 ## [5.0.0](https://github.com/netlify/eslint-config-node/compare/v4.1.7...v5.0.0) (2022-02-02)
 
 
