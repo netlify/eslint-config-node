@@ -4,11 +4,13 @@
   "type": "commonjs",
   "exports": {
     ".": "./.eslintrc.cjs",
+    "./esm": "./.eslintrc_esm.cjs",
     "./.prettierrc.json": "./.prettierrc.json"
   },
   "main": "./.eslintrc.cjs",
   "files": [
     ".eslintrc.cjs",
+    ".eslintrc_esm.cjs",
     ".prettierrc.json",
     ".editorconfig",
     ".gitattributes",
