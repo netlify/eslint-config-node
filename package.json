@@ -2,7 +2,10 @@
   "name": "@netlify/eslint-config-node",
   "version": "5.0.0",
   "type": "commonjs",
-  "exports": "./.eslintrc.cjs",
+  "exports": {
+    ".": "./.eslintrc.cjs",
+    "./.prettierrc.json": "./.prettierrc.json"
+  },
   "main": "./.eslintrc.cjs",
   "files": [
     ".eslintrc.cjs",
