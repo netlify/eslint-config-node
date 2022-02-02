@@ -33,7 +33,7 @@ module.exports = {
 "@netlify/eslint-config-node/.prettierrc.json"
 ```
 
-- Copy the `commitlint.config.cjs`, `.editorconfig` and `.gitattributes` files relativity to the root of the project.
+- Copy the `commitlint.config.cjs`, `.editorconfig` and `.gitattributes` files to the root of the project.
 - Add the following properties to the `package.json`. Please replace the `config` globbing expressions to match the
   files where the source JavaScript/Markdown/HTML/JSON/YAML files are located. `npm run format` should also be run
   during `npm test` and `npm run format:ci` during CI
