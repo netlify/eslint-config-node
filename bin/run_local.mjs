@@ -1,12 +1,10 @@
 #!/usr/bin/env node
-'use strict'
+import { argv } from 'process'
 
-const process = require('process')
+import execa from 'execa'
+import isCI from 'is-ci'
 
-const execa = require('execa')
-const isCI = require('is-ci')
-
-const [, , command] = process.argv
+const [, , command] = argv
 
 const runLocal = async function () {
   if (!isCI) {
