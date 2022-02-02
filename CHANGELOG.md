@@ -1,5 +1,21 @@
 # Changelog
 
+## [5.0.0](https://github.com/netlify/eslint-config-node/compare/v4.1.7...v5.0.0) (2022-02-02)
+
+
+### ⚠ BREAKING CHANGES
+
+* use pure ES modules (#435)
+
+### Bug Fixes
+
+* **deps:** update typescript-eslint monorepo to v5.10.1 ([#436](https://github.com/netlify/eslint-config-node/issues/436)) ([bcb3d6e](https://github.com/netlify/eslint-config-node/commit/bcb3d6ef5ce4fc024c4b020f84ad966c0b7fdbdb))
+
+
+### Miscellaneous Chores
+
+* use pure ES modules ([#435](https://github.com/netlify/eslint-config-node/issues/435)) ([81221e1](https://github.com/netlify/eslint-config-node/commit/81221e1da3dc40730c8d3a3f99d18c26393a0aed))
+
 ### [4.1.7](https://github.com/netlify/eslint-config-node/compare/v4.1.6...v4.1.7) (2022-01-24)
 
 
