@@ -1,5 +1,12 @@
 # Changelog
 
+### [5.1.2](https://github.com/netlify/eslint-config-node/compare/v5.1.1...v5.1.2) (2022-02-03)
+
+
+### Bug Fixes
+
+* ESM-specific configuration bugs ([#445](https://github.com/netlify/eslint-config-node/issues/445)) ([d37f52d](https://github.com/netlify/eslint-config-node/commit/d37f52d00590e4aaa4a01f01594b39f0412cb415))
+
 ### [5.1.1](https://github.com/netlify/eslint-config-node/compare/v5.1.0...v5.1.1) (2022-02-02)
 
 
