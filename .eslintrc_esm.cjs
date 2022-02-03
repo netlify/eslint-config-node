@@ -8,6 +8,7 @@ const baseEslintrc = require('./.eslintrc.cjs')
 module.exports = {
   ...baseEslintrc,
   parserOptions: {
+    ...baseEslintrc.parserOptions,
     sourceType: 'module',
   },
   rules: {
