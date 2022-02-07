@@ -1,5 +1,12 @@
 # Changelog
 
+### [5.1.4](https://github.com/netlify/eslint-config-node/compare/v5.1.3...v5.1.4) (2022-02-07)
+
+
+### Bug Fixes
+
+* **deps:** update dependency execa to v6 ([#448](https://github.com/netlify/eslint-config-node/issues/448)) ([7988ddb](https://github.com/netlify/eslint-config-node/commit/7988ddb3c4f20b0cc0b669f88622765cd60f653d))
+
 ### [5.1.3](https://github.com/netlify/eslint-config-node/compare/v5.1.2...v5.1.3) (2022-02-07)
 
 
