@@ -1,5 +1,13 @@
 # Changelog
 
+### [5.1.3](https://github.com/netlify/eslint-config-node/compare/v5.1.2...v5.1.3) (2022-02-07)
+
+
+### Bug Fixes
+
+* **deps:** update babel monorepo to v7.17.0 ([#450](https://github.com/netlify/eslint-config-node/issues/450)) ([6941729](https://github.com/netlify/eslint-config-node/commit/6941729f499aa7ac52c7b52e402179a3c26c5c2b))
+* **deps:** update typescript-eslint monorepo to v5.10.2 ([#449](https://github.com/netlify/eslint-config-node/issues/449)) ([9f25645](https://github.com/netlify/eslint-config-node/commit/9f2564539d5e5be1823ae999f9b2dd50e47661e4))
+
 ### [5.1.2](https://github.com/netlify/eslint-config-node/compare/v5.1.1...v5.1.2) (2022-02-03)
 
 
