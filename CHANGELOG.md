@@ -1,5 +1,18 @@
 # Changelog
 
+### [5.1.5](https://github.com/netlify/eslint-config-node/compare/v5.1.4...v5.1.5) (2022-02-21)
+
+
+### Bug Fixes
+
+* **deps:** update commitlint monorepo to v16.2.1 ([#454](https://github.com/netlify/eslint-config-node/issues/454)) ([cb476b9](https://github.com/netlify/eslint-config-node/commit/cb476b90399f6708cb0d2b857cad1db9fdd239e7))
+* **deps:** update dependency @babel/core to v7.17.2 ([#453](https://github.com/netlify/eslint-config-node/issues/453)) ([7625c57](https://github.com/netlify/eslint-config-node/commit/7625c574453a93b6254830181788772fb5a74803))
+* **deps:** update dependency @babel/core to v7.17.5 ([#458](https://github.com/netlify/eslint-config-node/issues/458)) ([4e6bc2b](https://github.com/netlify/eslint-config-node/commit/4e6bc2b3f2ca3a396d32a763e7d502427ae705a9))
+* **deps:** update dependency eslint-config-prettier to v8.4.0 ([#459](https://github.com/netlify/eslint-config-node/issues/459)) ([1d92771](https://github.com/netlify/eslint-config-node/commit/1d9277113b5cf4a1b128858a9c75c5ee2029579e))
+* **deps:** update dependency execa to v6.1.0 ([#455](https://github.com/netlify/eslint-config-node/issues/455)) ([a476b60](https://github.com/netlify/eslint-config-node/commit/a476b600dd2cc7c790c3db01762dab39bddea2ff))
+* **deps:** update typescript-eslint monorepo to v5.11.0 ([#456](https://github.com/netlify/eslint-config-node/issues/456)) ([66b1e4e](https://github.com/netlify/eslint-config-node/commit/66b1e4e2879abb6be4a524618d2137df2178668e))
+* **deps:** update typescript-eslint monorepo to v5.12.0 ([#460](https://github.com/netlify/eslint-config-node/issues/460)) ([bd067de](https://github.com/netlify/eslint-config-node/commit/bd067de311972bf7a6ec77f8cee0f7afbe236e4a))
+
 ### [5.1.4](https://github.com/netlify/eslint-config-node/compare/v5.1.3...v5.1.4) (2022-02-07)
 
 
