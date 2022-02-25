@@ -377,6 +377,7 @@ module.exports = {
         // Documentation might import dependencies not in package.json
         'node/no-unpublished-require': 0,
         'node/no-extraneous-require': 0,
+        'node/no-extraneous-import': 0,
         'import/no-extraneous-dependencies': 0,
       },
     },

@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 import process, { argv } from 'process'
 
-import execa from 'execa'
+import { execaCommand } from 'execa'
 
 const [, , npmScript, npmScriptOnError] = argv
 
@@ -20,7 +20,7 @@ const runOnError = async function () {
 }
 
 const runNpmScript = function (npmScriptName) {
-  return execa.command(`npm run ${npmScriptName}`, { stdio: 'inherit', reject: false })
+  return execaCommand(`npm run ${npmScriptName}`, { stdio: 'inherit', reject: false })
 }
 
 const DEFAULT_ERROR_EXIT_CODE = 1

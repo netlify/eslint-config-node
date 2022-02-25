@@ -1,7 +1,7 @@
 import { fileURLToPath } from 'url'
 
 import test from 'ava'
-import execa from 'execa'
+import { execa } from 'execa'
 
 const ESLINT_CONFIG = fileURLToPath(new URL('../.eslintrc.cjs', import.meta.url))
 const TEST_FILE = fileURLToPath(new URL('fixtures/_valid.mjs', import.meta.url))
