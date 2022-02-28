@@ -1,5 +1,13 @@
 # Changelog
 
+### [5.1.6](https://github.com/netlify/eslint-config-node/compare/v5.1.5...v5.1.6) (2022-02-28)
+
+
+### Bug Fixes
+
+* **deps:** update dependency eslint-plugin-react to v7.29.2 ([#463](https://github.com/netlify/eslint-config-node/issues/463)) ([e22c4bc](https://github.com/netlify/eslint-config-node/commit/e22c4bcc0f55c65c8dd37d29f06228801f088160))
+* **deps:** update typescript-eslint monorepo to v5.12.1 ([#462](https://github.com/netlify/eslint-config-node/issues/462)) ([c53c1ac](https://github.com/netlify/eslint-config-node/commit/c53c1ac499c066b172cce701845c271e38115f66))
+
 ### [5.1.5](https://github.com/netlify/eslint-config-node/compare/v5.1.4...v5.1.5) (2022-02-21)
 
 
