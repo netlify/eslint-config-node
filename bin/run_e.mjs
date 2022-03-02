@@ -1,9 +1,9 @@
 #!/usr/bin/env node
-const process = require('process')
+import process, { argv } from 'process'
 
-const execa = require('execa')
+import { execaCommand } from 'execa'
 
-const [, , npmScript, npmScriptOnError] = process.argv
+const [, , npmScript, npmScriptOnError] = argv
 
 // Run a npm script. If that script fails, another npm script is run.
 // We use this for example with ESLint and Prettier to be able to fail if
@@ -20,7 +20,7 @@ const runOnError = async function () {
 }
 
 const runNpmScript = function (npmScriptName) {
-  return execa.command(`npm run ${npmScriptName}`, { stdio: 'inherit', reject: false })
+  return execaCommand(`npm run ${npmScriptName}`, { stdio: 'inherit', reject: false })
 }
 
 const DEFAULT_ERROR_EXIT_CODE = 1

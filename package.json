@@ -1,28 +1,35 @@
 {
   "name": "@netlify/eslint-config-node",
-  "version": "4.1.0",
-  "main": ".eslintrc.js",
+  "version": "5.1.6",
+  "type": "commonjs",
+  "exports": {
+    ".": "./.eslintrc.cjs",
+    "./.eslintrc_esm.cjs": "./.eslintrc_esm.cjs",
+    "./.prettierrc.json": "./.prettierrc.json"
+  },
+  "main": "./.eslintrc.cjs",
   "files": [
-    ".eslintrc.js",
+    ".eslintrc.cjs",
+    ".eslintrc_esm.cjs",
     ".prettierrc.json",
     ".editorconfig",
     ".gitattributes",
-    "bin/*.js",
+    "bin/*.mjs",
     ".husky/*"
   ],
   "bin": {
-    "run-e": "./bin/run_e.js",
-    "run-ci": "./bin/run_ci.js",
-    "run-local": "./bin/run_local.js"
+    "run-e": "./bin/run_e.mjs",
+    "run-ci": "./bin/run_ci.mjs",
+    "run-local": "./bin/run_local.mjs"
   },
   "scripts": {
     "test": "run-s format test:dev",
     "format": "run-s format:check-fix:*",
     "format:ci": "run-s format:check:*",
-    "format:check-fix:lint": "node ./bin/run_e.js format:check:lint format:fix:lint",
+    "format:check-fix:lint": "node ./bin/run_e.mjs format:check:lint format:fix:lint",
     "format:check:lint": "cross-env-shell eslint $npm_package_config_eslint",
     "format:fix:lint": "cross-env-shell eslint --fix $npm_package_config_eslint",
-    "format:check-fix:prettier": "node ./bin/run_e.js format:check:prettier format:fix:prettier",
+    "format:check-fix:prettier": "node ./bin/run_e.mjs format:check:prettier format:fix:prettier",
     "format:check:prettier": "cross-env-shell prettier --check $npm_package_config_prettier",
     "format:fix:prettier": "cross-env-shell prettier --write $npm_package_config_prettier",
     "test:dev": "run-s test:dev:*",
@@ -33,8 +40,8 @@
     "prepare": "husky install"
   },
   "config": {
-    "eslint": "--ignore-path .gitignore --cache --format=codeframe --max-warnings=0 \"{bin,.github}/**/*.{js,html}\" \".*.js\"",
-    "prettier": "--ignore-path .gitignore --loglevel=warn \"{bin,.github}/**/*.{js,md,yml,json,html}\" \"*.{js,yml,json,html}\" \"!**/package-lock.json\" \"!CHANGELOG.md\""
+    "eslint": "--ignore-path .gitignore --cache --format=codeframe --max-warnings=0 \"{bin,.github}/**/*.{cjs,mjs,js,html}\" \".*.{cjs,mjs,js}\"",
+    "prettier": "--ignore-path .gitignore --loglevel=warn \"{bin,.github}/**/*.{cjs,mjs,js,md,yml,json,html}\" \"*.{cjs,mjs,js,yml,json,html}\" \"!**/package-lock.json\" \"!CHANGELOG.md\""
   },
   "description": "ESLint and Prettier configuration for Netlify Node.js projects",
   "keywords": [
@@ -93,7 +100,7 @@
     "eslint-plugin-react": "^7.21.5",
     "eslint-plugin-unicorn": "^40.0.0",
     "eslint-plugin-you-dont-need-lodash-underscore": "^6.10.0",
-    "execa": "^5.0.0",
+    "execa": "^6.0.0",
     "husky": "^7.0.4",
     "is-ci": "^3.0.0",
     "npm-run-all": "^4.1.5",
@@ -105,5 +112,8 @@
   },
   "engines": {
     "node": ">=16.0.0"
+  },
+  "ava": {
+    "verbose": true
   }
 }

@@ -14,11 +14,11 @@ Linting and formatting configuration shared by Netlify Node.js repositories:
 If you're creating a new repository, you can use the
 [following GitHub template](https://github.com/netlify/node-template). Otherwise, please follow those steps:
 
-- Add a `.eslintrc.js` file to the root of the project. Based on the type of the project update the content of the file:
-
-### Node.js project
+- Add a `.eslintrc.cjs` file to the root of the project. Individual `rules` and `overrides` can be tweaked for the
+  specific project.
 
 ```js
+// Use '@netlify/eslint-config-node/esm' if the repository is using pure ES modules
 const { overrides } = require('@netlify/eslint-config-node')
 
 module.exports = {
@@ -28,45 +28,13 @@ module.exports = {
 }
 ```
 
-### React application
-
-```js
-const { overrides } = require('@netlify/eslint-config-node/react_config')
-
-module.exports = {
-  extends: '@netlify/eslint-config-node/react_config',
-  rules: {},
-  overrides: [...overrides],
-}
-```
-
-### Vanilla JS in HTML files
-
-```js
-const { overrides } = require('@netlify/eslint-config-node/vanilla_js_config')
-
-module.exports = {
-  extends: '@netlify/eslint-config-node/vanilla_js_config',
-  rules: {},
-  overrides: [...overrides],
-}
-```
-
-> Individual `rules` and `overrides` can be tweaked for the specific project.
-
 - Add the following `.prettierrc.json` to the root of the project:
 
 ```json
 "@netlify/eslint-config-node/.prettierrc.json"
 ```
 
-- Add the following `commitlint.config.js` to the root of the project:
-
-```js
-module.exports = { extends: ['@commitlint/config-conventional'] }
-```
-
-- Copy the `.editorconfig` and `.gitattributes` files relativity to the root of the project.
+- Copy the `commitlint.config.cjs`, `.editorconfig` and `.gitattributes` files to the root of the project.
 - Add the following properties to the `package.json`. Please replace the `config` globbing expressions to match the
   files where the source JavaScript/Markdown/HTML/JSON/YAML files are located. `npm run format` should also be run
   during `npm test` and `npm run format:ci` during CI
@@ -85,8 +53,8 @@ module.exports = { extends: ['@commitlint/config-conventional'] }
     "format:fix:prettier": "cross-env-shell prettier --write $npm_package_config_prettier"
   },
   "config": {
-    "eslint": "--ignore-path .gitignore --cache --format=codeframe --max-warnings=0 \"{src,scripts,tests,.github}/**/*.{js,md,html}\" \"*.{js,md,html}\" \".*.{js,md,html}\"",
-    "prettier": "--ignore-path .gitignore --loglevel=warn \"{src,scripts,tests,.github}/**/*.{js,md,yml,json,html}\" \"*.{js,yml,json,html}\" \".*.{js,yml,json,html}\" \"!package-lock.json\""
+    "eslint": "--ignore-path .gitignore --cache --format=codeframe --max-warnings=0 \"{src,scripts,tests,.github}/**/*.{cjs,mjs,js,md,html}\" \"*.{cjs,mjs,js,md,html}\" \".*.{cjs,mjs,js,md,html}\"",
+    "prettier": "--ignore-path .gitignore --loglevel=warn \"{src,scripts,tests,.github}/**/*.{cjs,mjs,js,md,yml,json,html}\" \"*.{cjs,mjs,js,yml,json,html}\" \".*.{cjs,mjs,js,yml,json,html}\" \"!package-lock.json\""
   }
 }
 ```
