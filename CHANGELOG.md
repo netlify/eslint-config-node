@@ -1,5 +1,20 @@
 # Changelog
 
+### [5.1.7](https://github.com/netlify/eslint-config-node/compare/v5.1.6...v5.1.7) (2022-03-21)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @babel/core to v7.17.8 ([#474](https://github.com/netlify/eslint-config-node/issues/474)) ([d8b2bf7](https://github.com/netlify/eslint-config-node/commit/d8b2bf7906b17dca9a63047ac710ec4d100247f2))
+* **deps:** update dependency @commitlint/cli to v16.2.3 ([#475](https://github.com/netlify/eslint-config-node/issues/475)) ([591445e](https://github.com/netlify/eslint-config-node/commit/591445ed305089a5b67b68c8185dfe74ea2b5a59))
+* **deps:** update dependency eslint-config-prettier to v8.5.0 ([#468](https://github.com/netlify/eslint-config-node/issues/468)) ([1b7825e](https://github.com/netlify/eslint-config-node/commit/1b7825e9adb6657c21dd3a92b2b028b557d8d1a6))
+* **deps:** update dependency eslint-plugin-react to v7.29.3 ([#466](https://github.com/netlify/eslint-config-node/issues/466)) ([555bbfe](https://github.com/netlify/eslint-config-node/commit/555bbfe0f473ad0c32bcf8d3cff3c616b136f0e5))
+* **deps:** update dependency eslint-plugin-react to v7.29.4 ([#472](https://github.com/netlify/eslint-config-node/issues/472)) ([ec5c3f7](https://github.com/netlify/eslint-config-node/commit/ec5c3f7d0948756cc0fed0fee8d0c9af14adb3ea))
+* **deps:** update dependency prettier to v2.6.0 ([#476](https://github.com/netlify/eslint-config-node/issues/476)) ([159f927](https://github.com/netlify/eslint-config-node/commit/159f927c7ade93373d3d265263f9501c567f8be4))
+* **deps:** update typescript-eslint monorepo to v5.13.0 ([#469](https://github.com/netlify/eslint-config-node/issues/469)) ([d5e9b80](https://github.com/netlify/eslint-config-node/commit/d5e9b805b4ae20001420ad275a8e198c6e76f190))
+* **deps:** update typescript-eslint monorepo to v5.14.0 ([#473](https://github.com/netlify/eslint-config-node/issues/473)) ([df93087](https://github.com/netlify/eslint-config-node/commit/df93087622a8e8287687eb4495d98413a8713f89))
+* **deps:** update typescript-eslint monorepo to v5.15.0 ([#477](https://github.com/netlify/eslint-config-node/issues/477)) ([96e091d](https://github.com/netlify/eslint-config-node/commit/96e091dbb8e98bc296ae60397003a6b8f18298fa))
+
 ### [5.1.6](https://github.com/netlify/eslint-config-node/compare/v5.1.5...v5.1.6) (2022-02-28)
 
 
