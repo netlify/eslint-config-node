@@ -1,5 +1,14 @@
 # Changelog
 
+### [5.1.8](https://github.com/netlify/eslint-config-node/compare/v5.1.7...v5.1.8) (2022-03-28)
+
+
+### Bug Fixes
+
+* **deps:** update dependency eslint-import-resolver-typescript to v2.7.0 ([#479](https://github.com/netlify/eslint-config-node/issues/479)) ([f1fb6cb](https://github.com/netlify/eslint-config-node/commit/f1fb6cb0629744cb7bd784101332284d7120a3e3))
+* **deps:** update dependency prettier to v2.6.1 ([#478](https://github.com/netlify/eslint-config-node/issues/478)) ([30b8070](https://github.com/netlify/eslint-config-node/commit/30b807040489a581b70773d9250d5ab60dce2dd3))
+* **deps:** update typescript-eslint monorepo to v5.16.0 ([#480](https://github.com/netlify/eslint-config-node/issues/480)) ([31178a0](https://github.com/netlify/eslint-config-node/commit/31178a03b1a9c6dfe8437e0c999d40666f56ec82))
+
 ### [5.1.7](https://github.com/netlify/eslint-config-node/compare/v5.1.6...v5.1.7) (2022-03-21)
 
 
