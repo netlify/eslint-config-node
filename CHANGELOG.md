@@ -1,5 +1,17 @@
 # Changelog
 
+## [6.0.0](https://github.com/netlify/eslint-config-node/compare/v5.1.8...v6.0.0) (2022-04-01)
+
+
+### ⚠ BREAKING CHANGES
+
+* use `eslint-plugin-n` instead of `eslint-plugin-node` (#482)
+
+### Bug Fixes
+
+* **deps:** update dependency eslint to v8 ([#321](https://github.com/netlify/eslint-config-node/issues/321)) ([473d3bc](https://github.com/netlify/eslint-config-node/commit/473d3bc7901b3a7ab9c16faadcf3b46d462b9413))
+* use `eslint-plugin-n` instead of `eslint-plugin-node` ([#482](https://github.com/netlify/eslint-config-node/issues/482)) ([df03ffe](https://github.com/netlify/eslint-config-node/commit/df03ffeb07bc1581d8e4bb391d40e7341330302f))
+
 ### [5.1.8](https://github.com/netlify/eslint-config-node/compare/v5.1.7...v5.1.8) (2022-03-28)
 
 
