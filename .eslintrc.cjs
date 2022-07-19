@@ -28,7 +28,7 @@ module.exports = {
     'arrow-body-style': 2,
     'block-scoped-var': 2,
     'class-methods-use-this': 2,
-    complexity: [2, 5],
+    complexity: [2, { max: 10 }],
     'consistent-this': 2,
     'default-case': 2,
     'default-param-last': 2,
