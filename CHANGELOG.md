@@ -1,5 +1,61 @@
 # Changelog
 
+## [7.0.0](https://github.com/netlify/eslint-config-node/compare/v6.0.0...v7.0.0) (2022-07-19)
+
+
+### ⚠ BREAKING CHANGES
+
+* double max complexity (#533)
+
+### Features
+
+* double max complexity ([#533](https://github.com/netlify/eslint-config-node/issues/533)) ([4d7c366](https://github.com/netlify/eslint-config-node/commit/4d7c366ccb1e1bb71f10762b3baf00089d6a3b8e))
+
+
+### Bug Fixes
+
+* **deps:** update babel monorepo to v7.18.2 ([#510](https://github.com/netlify/eslint-config-node/issues/510)) ([3cb10b4](https://github.com/netlify/eslint-config-node/commit/3cb10b4446630bdda8f1fee973ed93b1749663d1))
+* **deps:** update commitlint monorepo to v16.2.4 ([#495](https://github.com/netlify/eslint-config-node/issues/495)) ([8563705](https://github.com/netlify/eslint-config-node/commit/8563705a98e54b712f3cf391629061ed04a931cb))
+* **deps:** update commitlint monorepo to v17 ([#508](https://github.com/netlify/eslint-config-node/issues/508)) ([1902d62](https://github.com/netlify/eslint-config-node/commit/1902d62e732372893c55a26c1b1810e2e84f2875))
+* **deps:** update dependency @babel/core to v7.17.10 ([#496](https://github.com/netlify/eslint-config-node/issues/496)) ([27173f6](https://github.com/netlify/eslint-config-node/commit/27173f67a90750a8a5d39d1632bde41d95134ac3))
+* **deps:** update dependency @babel/core to v7.17.9 ([#484](https://github.com/netlify/eslint-config-node/issues/484)) ([879e61d](https://github.com/netlify/eslint-config-node/commit/879e61d9dccd6325b37586243224d632d9793979))
+* **deps:** update dependency @babel/core to v7.18.0 ([#504](https://github.com/netlify/eslint-config-node/issues/504)) ([a7499bb](https://github.com/netlify/eslint-config-node/commit/a7499bb32d563081a9e902aabb3bab1be3ebea93))
+* **deps:** update dependency @babel/core to v7.18.5 ([#516](https://github.com/netlify/eslint-config-node/issues/516)) ([fa989de](https://github.com/netlify/eslint-config-node/commit/fa989ded1c2e44e9382e7e711c39405b7769d61e))
+* **deps:** update dependency @babel/core to v7.18.6 ([#524](https://github.com/netlify/eslint-config-node/issues/524)) ([2a911ce](https://github.com/netlify/eslint-config-node/commit/2a911ce0ad6858a6a44c3d6e4d8d1db8dc4afb17))
+* **deps:** update dependency @commitlint/cli to v16.3.0 ([#502](https://github.com/netlify/eslint-config-node/issues/502)) ([49f3c93](https://github.com/netlify/eslint-config-node/commit/49f3c934840cac75311b9c5d3e8f204d80470120))
+* **deps:** update dependency eslint to v8.13.0 ([#488](https://github.com/netlify/eslint-config-node/issues/488)) ([56fb65a](https://github.com/netlify/eslint-config-node/commit/56fb65a5b3fbb34cf47c703cbea5643e55e57682))
+* **deps:** update dependency eslint to v8.14.0 ([#497](https://github.com/netlify/eslint-config-node/issues/497)) ([664f92b](https://github.com/netlify/eslint-config-node/commit/664f92bc3575bdc46ad5b563b3ba6d00b44afd90))
+* **deps:** update dependency eslint to v8.15.0 ([#499](https://github.com/netlify/eslint-config-node/issues/499)) ([6a01ca0](https://github.com/netlify/eslint-config-node/commit/6a01ca016abcf2287365e09c8bd61a099ed4f7e0))
+* **deps:** update dependency eslint to v8.16.0 ([#505](https://github.com/netlify/eslint-config-node/issues/505)) ([56c98e3](https://github.com/netlify/eslint-config-node/commit/56c98e3757875d6376868c2fabf830fa707b70d5))
+* **deps:** update dependency eslint to v8.17.0 ([#513](https://github.com/netlify/eslint-config-node/issues/513)) ([f9e3001](https://github.com/netlify/eslint-config-node/commit/f9e3001d9604f873120b2a3ff08f80b3ab65ffba))
+* **deps:** update dependency eslint to v8.18.0 ([#517](https://github.com/netlify/eslint-config-node/issues/517)) ([2cced31](https://github.com/netlify/eslint-config-node/commit/2cced31a14dc14aad6d1390437683f486f55d1c7))
+* **deps:** update dependency eslint to v8.19.0 ([#525](https://github.com/netlify/eslint-config-node/issues/525)) ([fce9590](https://github.com/netlify/eslint-config-node/commit/fce95901fe45e74fe4dbe6db2b25d410e53afa9a))
+* **deps:** update dependency eslint to v8.20.0 ([#531](https://github.com/netlify/eslint-config-node/issues/531)) ([eb40520](https://github.com/netlify/eslint-config-node/commit/eb4052025a6f011127ad9d179891f8ab4d4e9274))
+* **deps:** update dependency eslint-import-resolver-typescript to v2.7.1 ([#485](https://github.com/netlify/eslint-config-node/issues/485)) ([4366564](https://github.com/netlify/eslint-config-node/commit/436656458b81e4c10af6d437bae45245e9364e63))
+* **deps:** update dependency eslint-import-resolver-typescript to v3 ([#523](https://github.com/netlify/eslint-config-node/issues/523)) ([58b81f2](https://github.com/netlify/eslint-config-node/commit/58b81f2cbda46eca49f5ac23717a1861fe613382))
+* **deps:** update dependency eslint-plugin-import to v2.26.0 ([#489](https://github.com/netlify/eslint-config-node/issues/489)) ([62357a2](https://github.com/netlify/eslint-config-node/commit/62357a20b026abcc9a76be0d707fdfa5f4a7502b))
+* **deps:** update dependency eslint-plugin-markdown to v3 ([#532](https://github.com/netlify/eslint-config-node/issues/532)) ([6ab5576](https://github.com/netlify/eslint-config-node/commit/6ab557649be10f425f31b59598e14c79f0df6fd0))
+* **deps:** update dependency eslint-plugin-react to v7.30.0 ([#506](https://github.com/netlify/eslint-config-node/issues/506)) ([4175fd8](https://github.com/netlify/eslint-config-node/commit/4175fd8ecd9f53e7e235d487e72f900a8f3f60c6))
+* **deps:** update dependency eslint-plugin-react to v7.30.1 ([#520](https://github.com/netlify/eslint-config-node/issues/520)) ([d83cd49](https://github.com/netlify/eslint-config-node/commit/d83cd491bf7a3fd9ab4c20b1c59a7589d20b69a9))
+* **deps:** update dependency eslint-plugin-unicorn to v43 ([#527](https://github.com/netlify/eslint-config-node/issues/527)) ([bb129ce](https://github.com/netlify/eslint-config-node/commit/bb129ce54878c4a9b2f7eb78e67b79993960de93))
+* **deps:** update dependency husky to v8 ([#501](https://github.com/netlify/eslint-config-node/issues/501)) ([a5b8a23](https://github.com/netlify/eslint-config-node/commit/a5b8a23e92b109af69cdd0f2d3748c0d577baee2))
+* **deps:** update dependency prettier to v2.6.2 ([#486](https://github.com/netlify/eslint-config-node/issues/486)) ([b20c9ee](https://github.com/netlify/eslint-config-node/commit/b20c9ee853c911b6a5b3f3f99cc7dd56a5e9d10c))
+* **deps:** update dependency prettier to v2.7.1 ([#518](https://github.com/netlify/eslint-config-node/issues/518)) ([e04cf32](https://github.com/netlify/eslint-config-node/commit/e04cf327199e430060c50f035bd3a1745cc14e0b))
+* **deps:** update typescript-eslint monorepo to v5.18.0 ([#490](https://github.com/netlify/eslint-config-node/issues/490)) ([cf78471](https://github.com/netlify/eslint-config-node/commit/cf784718b6ed61b67f9134e5236a6a60c83f8f6e))
+* **deps:** update typescript-eslint monorepo to v5.19.0 ([#494](https://github.com/netlify/eslint-config-node/issues/494)) ([efcf964](https://github.com/netlify/eslint-config-node/commit/efcf96493a5372b0fc15ff74d7744367e15377fc))
+* **deps:** update typescript-eslint monorepo to v5.21.0 ([#498](https://github.com/netlify/eslint-config-node/issues/498)) ([850e730](https://github.com/netlify/eslint-config-node/commit/850e730aeebaf0abb82d6a6f67fd021ea28b7737))
+* **deps:** update typescript-eslint monorepo to v5.22.0 ([#500](https://github.com/netlify/eslint-config-node/issues/500)) ([e95b5be](https://github.com/netlify/eslint-config-node/commit/e95b5be0b7fd1cf63d1cf8e34c36b3eed098a461))
+* **deps:** update typescript-eslint monorepo to v5.23.0 ([#503](https://github.com/netlify/eslint-config-node/issues/503)) ([50362ef](https://github.com/netlify/eslint-config-node/commit/50362efb3a1266dd352ec7d7aa0f216ec82cacf7))
+* **deps:** update typescript-eslint monorepo to v5.25.0 ([#507](https://github.com/netlify/eslint-config-node/issues/507)) ([07c03c9](https://github.com/netlify/eslint-config-node/commit/07c03c9ad5f680b030a1b91a889a5c668dfd9863))
+* **deps:** update typescript-eslint monorepo to v5.26.0 ([#511](https://github.com/netlify/eslint-config-node/issues/511)) ([a00a52f](https://github.com/netlify/eslint-config-node/commit/a00a52f47a39f8fa783b16cc32aaf45668210896))
+* **deps:** update typescript-eslint monorepo to v5.27.0 ([#514](https://github.com/netlify/eslint-config-node/issues/514)) ([3ae0fd9](https://github.com/netlify/eslint-config-node/commit/3ae0fd9b5b976fa7bd81bbf9eedaca27a3a2ca23))
+* **deps:** update typescript-eslint monorepo to v5.27.1 ([#515](https://github.com/netlify/eslint-config-node/issues/515)) ([6b33836](https://github.com/netlify/eslint-config-node/commit/6b3383663fd62003907d3b9b7e07ec881a803d85))
+* **deps:** update typescript-eslint monorepo to v5.28.0 ([#519](https://github.com/netlify/eslint-config-node/issues/519)) ([1210276](https://github.com/netlify/eslint-config-node/commit/121027660d6fd7dbb9567308474ccba8356974f6))
+* **deps:** update typescript-eslint monorepo to v5.29.0 ([#522](https://github.com/netlify/eslint-config-node/issues/522)) ([4f1d77c](https://github.com/netlify/eslint-config-node/commit/4f1d77ceaa57584ef9980a25387c65d82cc70518))
+* **deps:** update typescript-eslint monorepo to v5.30.4 ([#526](https://github.com/netlify/eslint-config-node/issues/526)) ([0cdab63](https://github.com/netlify/eslint-config-node/commit/0cdab63f0d66c684cab315b7126b5b69bb45fecd))
+* **deps:** update typescript-eslint monorepo to v5.30.5 ([#529](https://github.com/netlify/eslint-config-node/issues/529)) ([cf044cb](https://github.com/netlify/eslint-config-node/commit/cf044cb90047c68034072b00f73fe212f2cf446e))
+* **deps:** update typescript-eslint monorepo to v5.30.6 ([#530](https://github.com/netlify/eslint-config-node/issues/530)) ([76e73b4](https://github.com/netlify/eslint-config-node/commit/76e73b4f0b2598dacb11031215ee7930ae09f364))
+
 ## [6.0.0](https://github.com/netlify/eslint-config-node/compare/v5.1.8...v6.0.0) (2022-04-01)
 
 
