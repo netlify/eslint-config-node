@@ -391,7 +391,7 @@ module.exports = {
       ],
       rules: {
         '@typescript-eslint/no-extra-semi': 'off',
-      }
+      },
     },
     // React
     {
