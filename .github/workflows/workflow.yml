@@ -25,7 +25,7 @@ jobs:
           cache: npm
           check-latest: true
       - name: Install dependencies
-        run: npm ci
+        run: npm install
       - name: Linting
         run: npm run format:ci
         if: "${{ matrix.node-version == '*' }}"
