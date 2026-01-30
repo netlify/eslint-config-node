@@ -37,7 +37,7 @@
     "test:dev:ava": "ava",
     "test:ci:ava": "ava",
     "prepublishOnly": "npm ci && npm test",
-    "prepare": "husky install"
+    "prepare": "husky"
   },
   "config": {
     "eslint": "--ignore-path .gitignore --cache --format=codeframe --max-warnings=0 \"{bin,.github}/**/*.{cjs,mjs,js,html}\" \".*.{cjs,mjs,js}\"",
@@ -78,8 +78,8 @@
   "dependencies": {
     "@babel/core": "^7.13.8",
     "@babel/eslint-parser": "^7.13.8",
-    "@commitlint/cli": "^17.0.0",
-    "@commitlint/config-conventional": "^17.0.0",
+    "@commitlint/cli": "^20.4.0",
+    "@commitlint/config-conventional": "^20.4.0",
     "@typescript-eslint/eslint-plugin": "^5.0.0",
     "@typescript-eslint/parser": "^5.0.0",
     "cross-env": "^7.0.2",
@@ -102,7 +102,7 @@
     "eslint-plugin-unicorn": "^43.0.0",
     "eslint-plugin-you-dont-need-lodash-underscore": "^6.10.0",
     "execa": "^6.0.0",
-    "husky": "^8.0.0",
+    "husky": "^9.1.7",
     "is-ci": "^3.0.0",
     "npm-run-all2": "^5.0.0",
     "prettier": "^2.1.2",
